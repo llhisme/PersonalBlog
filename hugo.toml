@@ -56,8 +56,8 @@ pygmentsCodefencesGuessSyntax = true
   name = "Some Person"
   website = "yourwebsite.com"
   email = "lamlyhao453@gmail.com"
-  facebook = "username"
-  github = "username"
+  facebook = "ly.hao.268139"
+  github = "llhisme"
   # gitlab = "username"
   # bitbucket = "username"
   # twitter = "username"
@@ -66,8 +66,8 @@ pygmentsCodefencesGuessSyntax = true
   # xing = "username"
   # stackoverflow = "users/XXXXXXX/username"
   # snapchat = "username"
-  instagram = "username"
-  youtube = "user/username" # or channel/channelname
+  instagram = "oahyl1704"
+  youtube = "@lyhao1704" # or channel/channelname
   # soundcloud = "username"
   # spotify = "username"
   # bandcamp = "username"
@@ -82,48 +82,53 @@ pygmentsCodefencesGuessSyntax = true
   # weibo = "username"
   # slack = "username"
   # medium = "username"
-  discord = "invite code (https://discord.gg/XXXXXXX)"
+  # discord = "invite code (https://discord.gg/XXXXXXX)"
   # strava = "userid"
   # lastfm = "username"
   # bluesky = "username"
 
 [[menu.main]]
-    name = "Blog"
+    name = "Trang chủ"
     url = ""
     weight = 1
 
 [[menu.main]]
-    name = "About"
+    name = "Bài viết"
+    url = "post"
+    weight = 2
+
+[[menu.main]]
+    name = "Về tôi"
     url = "page/about/"
     weight = 3
 
-[[menu.main]]
-    identifier = "samples"
-    name = "Samples"
-    weight = 2
+# [[menu.main]]
+#    identifier = "samples"
+#    name = "Samples"
+#    weight = 2
+
+# [[menu.main]]
+#    parent = "samples"
+#    name = "Big Image Sample"
+#    url = "post/2017-03-07-bigimg-sample"
+#    weight = 1
+
+# [[menu.main]]
+#    parent = "samples"
+#    name = "Math Sample"
+#    url = "post/2017-03-05-math-sample"
+#    weight = 2
+
+# [[menu.main]]
+#    parent = "samples"
+#    name = "Code Sample"
+#    url = "post/2016-03-08-code-sample"
+#    weight = 3
 
 [[menu.main]]
-    parent = "samples"
-    name = "Big Image Sample"
-    url = "post/2017-03-07-bigimg-sample"
-    weight = 1
-
-[[menu.main]]
-    parent = "samples"
-    name = "Math Sample"
-    url = "post/2017-03-05-math-sample"
-    weight = 2
-
-[[menu.main]]
-    parent = "samples"
-    name = "Code Sample"
-    url = "post/2016-03-08-code-sample"
-    weight = 3
-
-[[menu.main]]
-    name = "Tags"
+    name = "Thẻ"
     url = "tags"
-    weight = 3
+    weight = 4
 
 [[module.imports]]
     path = "github.com/halogenica/beautifulhugo"
