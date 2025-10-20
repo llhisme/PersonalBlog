@@ -1,6 +1,6 @@
 baseurl = "https://llhisme.github.io"
-DefaultContentLanguage = "en"
-title = "Beautiful Hugo"
+DefaultContentLanguage = "vi"
+title = "LLHISME'S Blog"
 # Using theme as git submodule
 theme = "beautifulhugo"
 # Or when using theme as hugo module
@@ -24,7 +24,7 @@ pygmentsCodefencesGuessSyntax = true
   mainSections = ["post","posts"]
   logo = "img/avatar-icon.png" # Expecting square dimensions
   favicon = "img/favicon.ico"
-  dateFormat = "January 2, 2006"
+  dateFormat = "2 Tháng 1, 2006"
   commit = false
   rss = true
   comments = true

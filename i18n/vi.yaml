@@ -1,0 +1,76 @@
+---
+- id: dateFormat
+  translation: "2 Tháng 1, 2006"
+- id: shortdateFormat
+  translation: "02/Thg1/2006 15:04:05"
+- id: postedOnDate
+  translation: "Đăng vào {{ . }}"
+- id: lastModified
+  translation: "(Cập nhật lần cuối vào {{ . }})"
+- id: translationsLabel
+  translation: "Ngôn ngữ khác: "
+- id: translationsSeparator
+  translation: ", "
+- id: readMore
+  translation: "Đọc thêm"
+- id: olderPosts
+  translation: "Bài viết cũ hơn"
+- id: newerPosts
+  translation: "Bài viết mới hơn"
+- id: previousPost
+  translation: "Bài trước"
+- id: nextPost
+  translation: "Bài tiếp theo"
+- id: readTime
+  translation: "phút"
+- id: words
+  translation: "từ"
+
+
+# 404 page
+- id: pageNotFound
+  translation: "Ôi không, trang này không tồn tại. (Lỗi 404)"
+
+# Footer
+- id: poweredBy # Accepts HTML
+  translation: '<a href="https://gohugo.io">Hugo v{{ .Site.Hugo.Version }}</a> vận hành &nbsp;&bull;&nbsp; Giao diện <a href="https://github.com/halogenica/beautifulhugo">Beautiful Hugo</a> được điều chỉnh từ <a href="https://deanattali.com/beautiful-jekyll/">Beautiful Jekyll</a>'
+
+# Navigation
+- id: toggleNavigation
+  translation: "Chuyển đổi điều hướng"
+- id: languageSwitcherLabel
+  translation: "Ngôn ngữ"
+- id: gcseLabelShort
+  translation: "Tìm kiếm"
+- id: gcseLabelLong
+  translation: "Tìm kiếm {{ .Site.Title }}"
+- id: gcseClose
+  translation: "Đóng"
+
+# Staticman
+- id: noComment
+  translation: "Không có bình luận"
+- id: oneComment
+  translation: "bình luận"
+- id: moreComment
+  translation: "bình luận"
+- id: useMarkdown
+  translation: "Bạn có thể sử dụng cú pháp Markdown"
+- id: yourName
+  translation: "Tên của bạn"
+- id: yourEmail
+  translation: "Email của bạn"
+- id: yourWebsite
+  translation: "Website của bạn"
+
+# Delayed Disqus
+- id: show
+  translation: "Hiển thị"
+- id: comments
+  translation: "bình luận"
+
+# Related posts
+- id: seeAlso
+  translation: "Xem thêm"
+
+...
