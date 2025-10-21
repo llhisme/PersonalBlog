@@ -93,31 +93,26 @@ pygmentsCodefencesGuessSyntax = true
     weight = 1
 
 [[menu.main]]
-    name = "Bài viết"
-    url = "post"
-    weight = 2
-
-[[menu.main]]
     name = "Về tôi"
     url = "page/about/"
     weight = 4
 
-# [[menu.main]]
-#    identifier = "samples"
-#    name = "Samples"
-#    weight = 2
+[[menu.main]]
+    identifier = "bai-viet"
+    name = "Bài viết"
+    weight = 2
 
-# [[menu.main]]
-#    parent = "samples"
-#    name = "Big Image Sample"
-#    url = "post/2017-03-07-bigimg-sample"
-#    weight = 1
+[[menu.main]]
+    parent = "bai-viet"
+    name = "Lập trình Java"
+    url = "/tags/java"
+    weight = 1
 
-# [[menu.main]]
-#    parent = "samples"
-#    name = "Math Sample"
-#    url = "post/2017-03-05-math-sample"
-#    weight = 2
+[[menu.main]]
+    parent = "bai-viet"
+    name = "Lập trình JavaScript"
+    url = "/tags/javascript"
+    weight = 2
 
 # [[menu.main]]
 #    parent = "samples"
@@ -132,3 +127,8 @@ pygmentsCodefencesGuessSyntax = true
 
 [[module.imports]]
     path = "github.com/halogenica/beautifulhugo"
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
