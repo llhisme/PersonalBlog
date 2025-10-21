@@ -1,6 +1,6 @@
 ---
-title: About me
-subtitle: Why you'd want to go on a date with me
+title: Giới thiệu về tôi
+subtitle: Tìm hiểu về tác giả blog và hành trình lập trình của tôi
 comments: false
 ---
 
