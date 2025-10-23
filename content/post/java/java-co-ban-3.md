@@ -6,7 +6,7 @@ description: "Tìm hiểu các loại toán tử trong Java và cách sử dụn
 tags: ["java", "toán tử", "biểu thức", "cơ bản", "Java Cơ Bản"]
 categories: ["Java"]
 bigimg:
-- src: "/img/hexagon.jpg"
+- src: "/PersonalBlog/img/hexagon.jpg"
   desc: "Hexagon"
 ---
 

@@ -6,7 +6,7 @@ description: "Tìm hiểu về Document Object Model (DOM) và cách xử lý s�
 tags: ["javascript", "dom", "events", "cơ bản", "JavaScript Cơ Bản"]
 categories: ["JavaScript"]
 bigimg:
-- src: "/img/hexagon.jpg"
+- src: "/PersonalBlog/img/hexagon.jpg"
   desc: "Hexagon"
 ---
 

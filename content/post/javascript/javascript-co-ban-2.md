@@ -6,7 +6,7 @@ description: "Tìm hiểu chi tiết về biến, các kiểu dữ liệu và to
 tags: ["javascript", "biến", "kiểu dữ liệu", "toán tử", "cơ bản", "JavaScript Cơ Bản"]
 categories: ["JavaScript"]
 bigimg:
-- src: "/img/hexagon.jpg"
+- src: "/PersonalBlog/img/hexagon.jpg"
   desc: "Hexagon"
 ---
 

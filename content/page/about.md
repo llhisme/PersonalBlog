@@ -4,7 +4,7 @@ subtitle: Tác giả blog, Lập trình viên Java & JavaScript
 comments: false
 ---
 
-<img src="/img/avatar.png" alt="Ảnh đại diện của Hào" style="display: block; margin-left: auto; margin-right: auto; width: 200px; height: 200px; border-radius: 50%; object-fit: cover; margin-bottom: 20px;">
+<img src="/PersonalBlog/img/avatar.png" alt="Ảnh đại diện của Hào" style="display: block; margin-left: auto; margin-right: auto; width: 200px; height: 200px; border-radius: 50%; object-fit: cover; margin-bottom: 20px;">
 
 ## Chào bạn, tôi là Lâm Lý Hào!
 
@@ -80,7 +80,7 @@ Giống như một CV, đây là các công nghệ và kỹ năng cốt lõi mà
 <div class="lifestyle-container">
     
 <div class="lifestyle-image">
-    <img src="/img/sothich.jpg" alt="Ảnh mô tả sở thích cá nhân của Hào">
+    <img src="/PersonalBlog/img/sothich.jpg" alt="Ảnh mô tả sở thích cá nhân của Hào">
 </div>
     
 <div class="lifestyle-text">

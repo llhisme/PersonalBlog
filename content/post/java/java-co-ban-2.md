@@ -6,7 +6,7 @@ description: "Tìm hiểu về biến và các kiểu dữ liệu cơ bản tron
 tags: ["java", "biến", "kiểu dữ liệu", "cơ bản", "Java Cơ Bản"]
 categories: ["Java"]
 bigimg:
-- src: "/img/hexagon.jpg"
+- src: "/PersonalBlog/img/hexagon.jpg"
   desc: "Hexagon"
 ---
 

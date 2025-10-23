@@ -6,7 +6,7 @@ description: "Tìm hiểu JavaScript là gì và cách thiết lập môi trư�
 tags: ["javascript", "cơ bản", "giới thiệu", "thiết lập", "JavaScript Cơ Bản"]
 categories: ["JavaScript"]
 bigimg:
-- src: "/img/hexagon.jpg"
+- src: "/PersonalBlog/img/hexagon.jpg"
   desc: "Hexagon"
 ---
 

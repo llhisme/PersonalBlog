@@ -6,7 +6,7 @@ description: "Tìm hiểu về hàm trong JavaScript, các cách định nghĩa 
 tags: ["javascript", "hàm", "function", "scope", "cơ bản", "JavaScript Cơ Bản"]
 categories: ["JavaScript"]
 bigimg:
-- src: "/img/hexagon.jpg"
+- src: "/PersonalBlog/img/hexagon.jpg"
   desc: "Hexagon"
 ---
 
