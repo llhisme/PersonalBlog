@@ -2,26 +2,26 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Categories on LLHISME&#39;S Blog</title>
-    <link>http://localhost:1313/categories/</link>
+    <link>http://localhost:1313/PersonalBlog/categories/</link>
     <description>Recent content in Categories on LLHISME&#39;S Blog</description>
     <generator>Hugo</generator>
     <language>vi</language>
     <managingEditor>lamlyhao453@gmail.com (Lâm Lý Hào)</managingEditor>
     <webMaster>lamlyhao453@gmail.com (Lâm Lý Hào)</webMaster>
     <lastBuildDate>Mon, 05 Feb 2024 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/categories/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/PersonalBlog/categories/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>JavaScript</title>
-      <link>http://localhost:1313/categories/javascript/</link>
+      <link>http://localhost:1313/PersonalBlog/categories/javascript/</link>
       <pubDate>Mon, 05 Feb 2024 00:00:00 +0000</pubDate><author>lamlyhao453@gmail.com (Lâm Lý Hào)</author>
-      <guid>http://localhost:1313/categories/javascript/</guid>
+      <guid>http://localhost:1313/PersonalBlog/categories/javascript/</guid>
       <description></description>
     </item>
     <item>
       <title>Java</title>
-      <link>http://localhost:1313/categories/java/</link>
+      <link>http://localhost:1313/PersonalBlog/categories/java/</link>
       <pubDate>Sun, 28 Jan 2024 00:00:00 +0000</pubDate><author>lamlyhao453@gmail.com (Lâm Lý Hào)</author>
-      <guid>http://localhost:1313/categories/java/</guid>
+      <guid>http://localhost:1313/PersonalBlog/categories/java/</guid>
       <description></description>
     </item>
   </channel>

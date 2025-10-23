@@ -105,13 +105,13 @@ pygmentsCodefencesGuessSyntax = true
 [[menu.main]]
     parent = "bai-viet"
     name = "Lập trình Java"
-    url = "/tags/java"
+    url = "tags/java"
     weight = 1
 
 [[menu.main]]
     parent = "bai-viet"
     name = "Lập trình JavaScript"
-    url = "/tags/javascript"
+    url = "tags/javascript"
     weight = 2
 
 # [[menu.main]]

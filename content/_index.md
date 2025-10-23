@@ -12,6 +12,6 @@ Tôi là Lâm Lý Hào, một người đam mê lập trình với mong muốn g
 
 ### Bắt đầu khám phá
 
-Bạn có thể xem [tất cả bài viết](/post) hoặc chọn chủ đề bạn quan tâm bên dưới. Chúc bạn tìm thấy thông tin hữu ích!
+Bạn có thể xem [tất cả bài viết]({{< relref "post" >}}) hoặc chọn chủ đề bạn quan tâm bên dưới. Chúc bạn tìm thấy thông tin hữu ích!
 
-[Các bài viết về Java](/tags/java) | [Các bài viết về JavaScript](/tags/javascript)
+[Các bài viết về Java]({{< relref "tags/java" >}}) | [Các bài viết về JavaScript]({{< relref "tags/javascript" >}})
