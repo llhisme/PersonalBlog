@@ -7,7 +7,6 @@ tags: ["javascript", "dom", "events", "cơ bản", "JavaScript Cơ Bản"]
 categories: ["JavaScript"]
 bigimg:
 - src: "/PersonalBlog/img/hexagon.jpg"
-  desc: "Hexagon"
 ---
 
 ## DOM là gì?

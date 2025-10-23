@@ -6,8 +6,7 @@ description: "Học cách sử dụng câu lệnh điều kiện if-else và swi
 tags: ["java", "if-else", "switch", "điều kiện", "cơ bản", "Java Cơ Bản"]
 categories: ["Java"]
 bigimg:
-- src: "/PersonalBlog/img/hexagon.jpg"
-  desc: "Hexagon"
+- src: "/PersonalBlog/img/sphere.jpg"
 ---
 
 ## Cấu trúc điều khiển là gì?

@@ -7,7 +7,6 @@ tags: ["javascript", "cơ bản", "giới thiệu", "thiết lập", "JavaScript
 categories: ["JavaScript"]
 bigimg:
 - src: "/PersonalBlog/img/hexagon.jpg"
-  desc: "Hexagon"
 ---
 
 ## JavaScript là gì?

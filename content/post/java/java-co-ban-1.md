@@ -6,8 +6,7 @@ description: "Giới thiệu về ngôn ngữ lập trình Java, tại sao nên 
 tags: ["java", "cài đặt", "môi trường", "cơ bản", "Java Cơ Bản"]
 categories: ["Java"]
 bigimg:
-- src: "/PersonalBlog/img/hexagon.jpg"
-  desc: "Hexagon"
+- src: "/PersonalBlog/img/sphere.jpg"
 ---
 
 ## Java là gì?

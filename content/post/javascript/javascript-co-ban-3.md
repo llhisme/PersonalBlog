@@ -7,7 +7,6 @@ tags: ["javascript", "hàm", "function", "scope", "cơ bản", "JavaScript Cơ B
 categories: ["JavaScript"]
 bigimg:
 - src: "/PersonalBlog/img/hexagon.jpg"
-  desc: "Hexagon"
 ---
 
 ## Hàm là gì?

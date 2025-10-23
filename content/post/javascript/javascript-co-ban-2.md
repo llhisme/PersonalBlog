@@ -7,7 +7,6 @@ tags: ["javascript", "biến", "kiểu dữ liệu", "toán tử", "cơ bản", 
 categories: ["JavaScript"]
 bigimg:
 - src: "/PersonalBlog/img/hexagon.jpg"
-  desc: "Hexagon"
 ---
 
 ## Biến trong JavaScript

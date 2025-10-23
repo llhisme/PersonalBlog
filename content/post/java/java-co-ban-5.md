@@ -6,8 +6,7 @@ description: "Tìm hiểu các loại vòng lặp trong Java và cách sử dụ
 tags: ["java", "vòng lặp", "for", "while", "do-while", "cơ bản", "Java Cơ Bản"]
 categories: ["Java"]
 bigimg:
-- src: "/PersonalBlog/img/hexagon.jpg"
-  desc: "Hexagon"
+- src: "/PersonalBlog/img/sphere.jpg"
 ---
 
 ## Vòng lặp là gì?

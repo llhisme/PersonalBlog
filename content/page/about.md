@@ -16,9 +16,18 @@ Mục tiêu của tôi là cung cấp các bài viết kỹ thuật chuyên sâu
 
 ---
 
-## Kỹ năng chuyên môn
+## Triết lý của tôi
 
-Giống như một CV, đây là các công nghệ và kỹ năng cốt lõi mà tôi tập trung phát triển:
+Tôi tin rằng một lập trình viên giỏi không chỉ là người viết code.
+* **Giải quyết vấn đề là cốt lõi:** Code chỉ là công cụ. Tôi luôn tự hỏi "Tại sao chúng ta làm điều này?" trước khi hỏi "Chúng ta làm nó như thế nào?".
+* **Học hỏi không ngừng:** Thế giới công nghệ thay đổi mỗi ngày. Tôi duy trì sự tò mò và sẵn sàng học hỏi các công cụ, ngôn ngữ và phương pháp mới.
+* **Sự cân bằng:** Tôi đam mê việc xây dựng các ứng dụng có hiệu suất cao (với Java) nhưng cũng đồng thời bị ám ảnh bởi việc tạo ra trải nghiệm người dùng thân thiện (với JavaScript).
+
+---
+
+## Bộ công cụ & Kỹ năng
+
+Đây là những công nghệ tôi sử dụng hàng ngày để biến ý tưởng thành sản phẩm:
 
 ### 1. Backend (Java)
 * **Ngôn ngữ chính:** Java (Core, OOP)
@@ -48,53 +57,72 @@ Giống như một CV, đây là các công nghệ và kỹ năng cốt lõi mà
 
 **Trường Công Nghệ TP.HCM (HUTECH)**
 * **Chuyên ngành:** Công nghệ Phần mềm
-* **Thời gian:** 2022 - 2026
+* **Thời gian:** 2022 - 2026 (dự kiến tốt nghiệp)
 
 ---
 
 ## Không chỉ là Code...
 
 <style>
-.lifestyle-container {
+/* CSS cho phần sở thích mới */
+.hobbies-container {
     display: flex;
-    flex-wrap: wrap; /* Cho phép xuống dòng trên di động */
-    align-items: flex-start;
-    gap: 25px; /* Khoảng cách giữa ảnh và chữ */
-    margin-bottom: 20px;
+    justify-content: space-between; /* Căn đều các mục */
+    gap: 20px; /* Khoảng cách giữa các mục */
+    flex-wrap: wrap; /* Cho phép xuống dòng trên màn hình nhỏ */
 }
-.lifestyle-image {
-    flex: 1; /* Cột ảnh chiếm 1 phần */
-    min-width: 250px; /* Ảnh sẽ không nhỏ hơn 250px */
+.hobby-item {
+    flex: 1; /* Các mục sẽ chia đều không gian */
+    min-width: 220px; /* Chiều rộng tối thiểu trước khi xuống dòng */
+    text-align: center; /* Căn giữa nội dung */
+    background-color: transparent;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    display: flex;
+    flex-direction: column;
 }
-.lifestyle-image img {
+.hobby-item img {
     width: 100%;
-    border-radius: 8px; /* Bo góc ảnh cho đẹp */
-    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    height: 160px; /* Chiều cao cố định cho ảnh */
+    object-fit: cover; /* Đảm bảo ảnh không bị méo */
+    border-radius: 6px;
+    margin-bottom: 15px;
 }
-.lifestyle-text {
-    flex: 2; /* Cột chữ chiếm 2 phần, rộng hơn cột ảnh */
-    min-width: 300px;
+.hobby-item h4 {
+    margin-top: 0;
+    font-weight: bold;
+}
+.hobby-item p {
+    font-size: 14px;
+    flex-grow: 1; /* Giúp các box có chiều cao bằng nhau */
 }
 </style>
 
-<div class="lifestyle-container">
-    
-<div class="lifestyle-image">
-    <img src="/PersonalBlog/img/sothich.jpg" alt="Ảnh mô tả sở thích cá nhân của Hào">
-</div>
-    
-<div class="lifestyle-text">
+
 <p>Ngoài những giờ học tập và viết code, tôi tin rằng việc cân bằng cuộc sống là vô cùng quan trọng. Đối với tôi, lập trình là một cuộc đua marathon, không phải chạy nước rút. Những sở thích cá nhân giúp tôi nạp lại năng lượng và tìm thấy nguồn cảm hứng mới.</p>
-        
+
 <p>Khi không ngồi trước màn hình, bạn có thể tìm thấy tôi:</p>
-        
-<ul>
-    <li><strong>Với một "tâm hồn ăn uống":</strong> Tôi thích khám phá các quán ăn mới, thưởng thức các món ăn mà từ trước đến giờ vẫn chưa được thưởng thức lần nào.</li>
-</ul>
-        
+
+<div class="hobbies-container">
+    <div class="hobby-item">
+        <img src="/PersonalBlog/img/dichoi.jpg" alt="Sở thích đi chơi">
+        <h4>🎮 Đi chơi</h4>
+        <p>Khám phá những nơi chưa từng đến, trải nghiệm văn hóa và tận hưởng thiên nhiên để làm mới tâm trí.</p>
+    </div>
+    <div class="hobby-item">
+        <img src="/PersonalBlog/img/doan.jpg" alt="Sở thích ăn uống">
+        <h4>🍜 Tâm hồn ăn uống</h4>
+        <p>Hành trình tìm kiếm và thưởng thức các món ăn độc đáo, từ đường phố đến nhà hàng.</p>
+    </div>
+    <div class="hobby-item">
+        <img src="/PersonalBlog/img/xemphim.jpg" alt="Sở thích xem phim">
+        <h4>🍿 Xem phim</h4>
+        <p>Xem những bộ phim mới được ra mắt, cùng người yêu thương.</p>
+    </div>
+</div>
+
 <p>Tôi tin rằng chính những trải nghiệm đa dạng này giúp tôi trở thành một lập trình viên sáng tạo và toàn diện hơn.</p>
-</div>
-</div>
 
 ---
 
@@ -102,7 +130,7 @@ Giống như một CV, đây là các công nghệ và kỹ năng cốt lõi mà
 
 Tôi luôn sẵn sàng trao đổi về các cơ hội hợp tác, dự án mới hoặc đơn giản là chia sẻ về công nghệ. Đừng ngần ngại kết nối với tôi qua:
 
-* **Email:** [lamlyhao453@gmail.com]
-* **GitHub:** [https://github.com/llhisme]
-* **Facebook:** [https://www.facebook.com/ly.hao.268139]
-* **Instagram:** [https://www.instagram.com/oahyl1704/]
+* **Email:** <a href="mailto:lamlyhao453@gmail.com">lamlyhao453@gmail.com</a>
+* **GitHub:** <a href="https://github.com/llhisme" target="_blank" rel="noopener noreferrer">llhisme</a>
+* **Facebook:** <a href="https://www.facebook.com/ly.hao.268139" target="_blank" rel="noopener noreferrer">Lý Hào</a>
+* **Instagram:** <a href="https://www.instagram.com/oahyl1704/" target="_blank" rel="noopener noreferrer">Lý Hào</a>
