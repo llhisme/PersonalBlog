@@ -1,4 +1,4 @@
-baseurl = "https://llhisme.github.io"
+baseurl = "https://llhisme.github.io/"
 DefaultContentLanguage = "vi"
 title = "LLHISME'S Blog"
 # Using theme as git submodule
