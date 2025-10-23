@@ -32,8 +32,8 @@
   translation: "Ôi không, trang này không tồn tại. (Lỗi 404)"
 
 # Footer
-- id: poweredBy # Accepts HTML
-  translation: '<a href="https://gohugo.io">Hugo v{{ .Site.Hugo.Version }}</a> vận hành &nbsp;&bull;&nbsp; Giao diện <a href="https://github.com/halogenica/beautifulhugo">Beautiful Hugo</a> được điều chỉnh từ <a href="https://deanattali.com/beautiful-jekyll/">Beautiful Jekyll</a>'
+# - id: poweredBy # Accepts HTML
+#   translation: '<a href="https://gohugo.io">Hugo v{{ .Site.Hugo.Version }}</a> vận hành &nbsp;&bull;&nbsp; Giao diện <a href="https://github.com/halogenica/beautifulhugo">Beautiful Hugo</a> được điều chỉnh từ <a href="https://deanattali.com/beautiful-jekyll/">Beautiful Jekyll</a>'
 
 # Navigation
 - id: toggleNavigation

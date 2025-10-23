@@ -40,7 +40,7 @@ Giống như một CV, đây là các công nghệ và kỹ năng cốt lõi mà
 ### 4. Công cụ & Quy trình (Tools & DevOps)
 * **Quản lý mã nguồn:** Git, GitHub
 * **Công cụ khác:** Docker, Postman
-* **Phương pháp:** Agile/Scrum 
+* **Phương pháp:** Agile/Scrum
 
 ---
 
@@ -52,6 +52,57 @@ Giống như một CV, đây là các công nghệ và kỹ năng cốt lõi mà
 
 ---
 
+## Không chỉ là Code...
+
+<style>
+.lifestyle-container {
+    display: flex;
+    flex-wrap: wrap; /* Cho phép xuống dòng trên di động */
+    align-items: flex-start;
+    gap: 25px; /* Khoảng cách giữa ảnh và chữ */
+    margin-bottom: 20px;
+}
+.lifestyle-image {
+    flex: 1; /* Cột ảnh chiếm 1 phần */
+    min-width: 250px; /* Ảnh sẽ không nhỏ hơn 250px */
+}
+.lifestyle-image img {
+    width: 100%;
+    border-radius: 8px; /* Bo góc ảnh cho đẹp */
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+.lifestyle-text {
+    flex: 2; /* Cột chữ chiếm 2 phần, rộng hơn cột ảnh */
+    min-width: 300px;
+}
+</style>
+
+<div class="lifestyle-container">
+    
+<div class="lifestyle-image">
+    <img src="/img/sothich.jpg" alt="Ảnh mô tả sở thích cá nhân của Hào">
+</div>
+    
+<div class="lifestyle-text">
+<p>Ngoài những giờ học tập và viết code, tôi tin rằng việc cân bằng cuộc sống là vô cùng quan trọng. Đối với tôi, lập trình là một cuộc đua marathon, không phải chạy nước rút. Những sở thích cá nhân giúp tôi nạp lại năng lượng và tìm thấy nguồn cảm hứng mới.</p>
+        
+<p>Khi không ngồi trước màn hình, bạn có thể tìm thấy tôi:</p>
+        
+<ul>
+    <li><strong>Với một "tâm hồn ăn uống":</strong> Tôi thích khám phá các quán ăn mới, thưởng thức các món ăn mà từ trước đến giờ vẫn chưa được thưởng thức lần nào.</li>
+</ul>
+        
+<p>Tôi tin rằng chính những trải nghiệm đa dạng này giúp tôi trở thành một lập trình viên sáng tạo và toàn diện hơn.</p>
+</div>
+</div>
+
+---
+
 ## Liên hệ & Kết nối
 
 Tôi luôn sẵn sàng trao đổi về các cơ hội hợp tác, dự án mới hoặc đơn giản là chia sẻ về công nghệ. Đừng ngần ngại kết nối với tôi qua:
+
+* **Email:** [lamlyhao453@gmail.com]
+* **GitHub:** [https://github.com/llhisme]
+* **Facebook:** [https://www.facebook.com/ly.hao.268139]
+* **Instagram:** [https://www.instagram.com/oahyl1704/]
