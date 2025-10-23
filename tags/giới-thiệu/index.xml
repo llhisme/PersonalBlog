@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Giới Thiệu on LLHISME'S Blog</title><link>https://llhisme.github.io/tags/gi%E1%BB%9Bi-thi%E1%BB%87u/</link><description>Recent content in Giới Thiệu on LLHISME'S Blog</description><generator>Hugo</generator><language>vi</language><managingEditor>lamlyhao453@gmail.com (Lâm Lý Hào)</managingEditor><webMaster>lamlyhao453@gmail.com (Lâm Lý Hào)</webMaster><lastBuildDate>Tue, 30 Jan 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://llhisme.github.io/tags/gi%E1%BB%9Bi-thi%E1%BB%87u/index.xml" rel="self" type="application/rss+xml"/><item><title>JavaScript Cơ Bản #1: Giới Thiệu và Thiết Lập Môi Trường</title><link>https://llhisme.github.io/post/javascript/javascript-co-ban-1/</link><pubDate>Tue, 30 Jan 2024 00:00:00 +0000</pubDate><author>lamlyhao453@gmail.com (Lâm Lý Hào)</author><guid>https://llhisme.github.io/post/javascript/javascript-co-ban-1/</guid><description>&lt;h2 id="javascript-là-gì"&gt;JavaScript là gì?&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;JavaScript&lt;/strong&gt; (viết tắt là JS) là ngôn ngữ lập trình được sử dụng chủ yếu để tạo ra các trang web tương tác. Ban đầu JavaScript chỉ chạy trên trình duyệt web, nhưng hiện nay nó có thể chạy ở nhiều môi trường khác nhau.&lt;/p&gt;
+&lt;h3 id="tại-sao-nên-học-javascript"&gt;Tại sao nên học JavaScript?&lt;/h3&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;strong&gt;Ngôn ngữ của web&lt;/strong&gt;: JavaScript là ngôn ngữ duy nhất chạy trực tiếp trên trình duyệt&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Dễ học&lt;/strong&gt;: Cú pháp đơn giản, thân thiện với người mới&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Đa năng&lt;/strong&gt;: Có thể làm frontend, backend, mobile app, desktop app&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Cộng đồng lớn&lt;/strong&gt;: Rất nhiều tài liệu, thư viện và framework&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Cơ hội việc làm&lt;/strong&gt;: Nhu cầu tuyển dụng JavaScript developer rất cao&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2 id="thiết-lập-môi-trường-học-javascript"&gt;Thiết lập môi trường học JavaScript&lt;/h2&gt;
+&lt;h3 id="1-trình-duyệt-web-cách-đơn-giản-nhất"&gt;1. Trình duyệt web (Cách đơn giản nhất)&lt;/h3&gt;
+&lt;p&gt;Mọi trình duyệt hiện đại đều có JavaScript engine tích hợp:&lt;/p&gt;</description></item></channel></rss>

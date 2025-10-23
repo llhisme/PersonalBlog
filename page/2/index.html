@@ -1,0 +1,1432 @@
+
+
+<!DOCTYPE html>
+<html lang="vi" itemscope itemtype="http://schema.org/WebPage">
+  <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+    
+
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+
+ 
+
+
+  
+  <meta name="description" content="Chào mừng đến với LLHISME&rsquo;S Blog!
+Đây là không gian cá nhân nơi tôi chia sẻ những kiến thức, kinh nghiệm thực tế và các dự án thú vị liên quan đến hai ngôn ngữ lập trình tôi yêu thích: Java và JavaScript.
+Tôi là Lâm Lý Hào, một người đam mê lập trình với mong muốn ghi lại hành trình học hỏi của mình và kết nối với cộng đồng.">
+  <meta name="author" content="Lâm Lý Hào"/><script type="application/ld+json">
+{
+    "@context": "http://schema.org",
+    "@type": "WebSite",
+    "name": "LLHISME\u0027S Blog",
+    
+    "url": "http:\/\/localhost:1313\/"
+}
+</script><script type="application/ld+json">
+{
+  "@context": "http://schema.org",
+  "@type": "Organization",
+  "name": "",
+  "url": "http:\/\/localhost:1313\/"
+  
+  
+  
+  
+}
+</script>
+
+<meta property="og:title" content="LLHISME&#39;S Blog" />
+<meta property="og:description" content="Chào mừng đến với LLHISME&rsquo;S Blog!
+Đây là không gian cá nhân nơi tôi chia sẻ những kiến thức, kinh nghiệm thực tế và các dự án thú vị liên quan đến hai ngôn ngữ lập trình tôi yêu thích: Java và JavaScript.
+Tôi là Lâm Lý Hào, một người đam mê lập trình với mong muốn ghi lại hành trình học hỏi của mình và kết nối với cộng đồng.">
+<meta property="og:image" content="http://localhost:1313/img/avatar-icon.png" />
+<meta property="og:url" content="http://localhost:1313/" />
+<meta property="og:type" content="website" />
+<meta property="og:site_name" content="LLHISME&#39;S Blog" />
+
+  <meta name="twitter:title" content="LLHISME&#39;S Blog" />
+  <meta name="twitter:description" content="Chào mừng đến với LLHISME&rsquo;S Blog!
+Đây là không gian cá nhân nơi tôi chia sẻ những kiến thức, kinh nghiệm thực tế và các dự án thú vị liên quan đến hai ngôn ngữ lập trình tôi yêu thích: Java và …">
+  <meta name="twitter:image" content="http://localhost:1313/img/avatar-icon.png" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <link href='http://localhost:1313/img/favicon.ico' rel='icon' type='image/x-icon'/>
+  <meta name="generator" content="Hugo 0.150.1">
+  <link rel="alternate" href="http://localhost:1313/index.xml" type="application/rss+xml" title="LLHISME&#39;S Blog"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.7/dist/katex.min.css" integrity="sha384-3UiQGuEI4TTMaFmGIZumfRPtfKQ3trwQE2JgosJxCnGmQpL/lJdjpcHkaaFwHlcI" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v6.6.0/css/all.css" integrity="sha384-h/hnnw1Bi4nbpD6kE7nYfCXzovi622sY5WBxww8ARKwpdLj5kUWjRuyiXaD1U2JT" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@3.4.1/dist/css/bootstrap.min.css" integrity="sha384-HSMxcRTRxnN+Bdg0JdbxYKrThecOKuH5zCYotlSAcp1+c8xmyTe9GYg1l9a69psu" crossorigin="anonymous"><link rel="stylesheet" href="http://localhost:1313/css/main.css" /><link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic" />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800" />
+  <link rel="stylesheet" href="http://localhost:1313/css/highlight.min.css" /><link rel="stylesheet" href="http://localhost:1313/css/codeblock.css" /><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/photoswipe/4.1.2/photoswipe.min.css" integrity="sha384-h/L2W9KefUClHWaty3SLE5F/qvc4djlyR4qY3NUV5HGQBBW7stbcfff1+I/vmsHh" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/photoswipe/4.1.2/default-skin/default-skin.min.css" integrity="sha384-iD0dNku6PYSIQLyfTOpB06F2KCZJAKLOThS5HRe8b3ibhdEQ6eKsFf/EeFxdOt5R" crossorigin="anonymous">
+
+
+  </head>
+  <body>
+    <nav class="navbar navbar-default navbar-fixed-top navbar-custom">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#main-navbar">
+        <span class="sr-only">Chuyển đổi điều hướng</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="http://localhost:1313/">LLHISME&#39;S Blog</a>
+    </div>
+
+    <div class="collapse navbar-collapse" id="main-navbar">
+      <ul class="nav navbar-nav navbar-right">
+        
+          
+            <li>
+              <a title="Trang chủ" href="/">Trang chủ</a>
+            </li>
+          
+        
+          
+            <li class="navlinks-container">
+              <a class="navlinks-parent" role="button" tabindex="0">Bài viết</a>
+              <div class="navlinks-children">
+                
+                  <a href="/tags/java">Lập trình Java</a>
+                
+                  <a href="/tags/javascript">Lập trình JavaScript</a>
+                
+              </div>
+            </li>
+          
+        
+          
+            <li>
+              <a title="Thẻ" href="/tags">Thẻ</a>
+            </li>
+          
+        
+          
+            <li>
+              <a title="Về tôi" href="/page/about/">Về tôi</a>
+            </li>
+          
+        
+
+        
+
+        
+      </ul>
+    </div>
+
+    
+      <div class="avatar-container">
+        <div class="avatar-img-border">
+          <a title="LLHISME&#39;S Blog" href="http://localhost:1313/">
+            <img class="avatar-img" src="http://localhost:1313/img/avatar-icon.png" alt="LLHISME&#39;S Blog" />
+           
+          </a>
+        </div>
+      </div>
+    
+
+  </div>
+</nav>
+
+
+
+
+    
+
+
+<div class="pswp" tabindex="-1" role="dialog" aria-hidden="true">
+
+<div class="pswp__bg"></div>
+
+<div class="pswp__scroll-wrap">
+    
+    <div class="pswp__container">
+      <div class="pswp__item"></div>
+      <div class="pswp__item"></div>
+      <div class="pswp__item"></div>
+    </div>
+    
+    <div class="pswp__ui pswp__ui--hidden">
+    <div class="pswp__top-bar">
+      
+      <div class="pswp__counter"></div>
+      <button class="pswp__button pswp__button--close" title="Close (Esc)"></button>
+      <button class="pswp__button pswp__button--share" title="Share"></button>
+      <button class="pswp__button pswp__button--fs" title="Toggle fullscreen"></button>
+      <button class="pswp__button pswp__button--zoom" title="Zoom in/out"></button>
+      
+      
+      <div class="pswp__preloader">
+        <div class="pswp__preloader__icn">
+          <div class="pswp__preloader__cut">
+            <div class="pswp__preloader__donut"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap">
+      <div class="pswp__share-tooltip"></div>
+    </div>
+    <button class="pswp__button pswp__button--arrow--left" title="Previous (arrow left)">
+    </button>
+    <button class="pswp__button pswp__button--arrow--right" title="Next (arrow right)">
+    </button>
+    <div class="pswp__caption">
+      <div class="pswp__caption__center"></div>
+    </div>
+    </div>
+    </div>
+</div>
+
+
+  
+  
+  
+
+
+
+
+
+
+  
+
+  <header class="header-section ">
+    
+    
+    <div class="intro-header no-img">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+            <div class="page-heading">
+              
+                <h1>LLHISME&#39;S Blog</h1>
+              
+              
+                <hr class="small">
+              
+              
+              
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  
+  </header>
+
+
+    
+  <div role="main" class="container">
+    <div class="row">
+      <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+        
+          <div class="well">
+            <h2 id="chào-mừng-đến-với-llhismes-blog">Chào mừng đến với LLHISME&rsquo;S Blog!</h2>
+<p>Đây là không gian cá nhân nơi tôi chia sẻ những kiến thức, kinh nghiệm thực tế và các dự án thú vị liên quan đến hai ngôn ngữ lập trình tôi yêu thích: <strong>Java</strong> và <strong>JavaScript</strong>.</p>
+<p>Tôi là Lâm Lý Hào, một người đam mê lập trình với mong muốn ghi lại hành trình học hỏi của mình và kết nối với cộng đồng.</p>
+<h3 id="bạn-sẽ-tìm-thấy-gì-ở-đây">Bạn sẽ tìm thấy gì ở đây?</h3>
+<ul>
+<li><strong>Hướng dẫn về Java:</strong> Từ các khái niệm OOP, Collections, đến các framework phổ biến như Spring Boot.</li>
+<li><strong>Thủ thuật JavaScript:</strong> Các mẹo về ES6+, các thư viện/framework như React, Node.js, và các vấn đề thường gặp.</li>
+<li><strong>Dự án thực tế:</strong> Quá trình tôi xây dựng và phân tích các dự án nhỏ để áp dụng kiến thức.</li>
+</ul>
+<h3 id="bắt-đầu-khám-phá">Bắt đầu khám phá</h3>
+<p>Bạn có thể xem <a href="/post">tất cả bài viết</a> hoặc chọn chủ đề bạn quan tâm bên dưới. Chúc bạn tìm thấy thông tin hữu ích!</p>
+<p><a href="/tags/java">Các bài viết về Java</a> | <a href="/tags/javascript">Các bài viết về JavaScript</a></p>
+
+          </div>
+        
+
+        <div class="posts-list">
+          
+          
+            <article class="post-preview">
+    <a href="http://localhost:1313/post/java-co-ban-4/">
+        <h2 class="post-title">Java Cơ Bản #4: Cấu Trúc Điều Khiển - If/Else và Switch</h2>
+        
+        <h3 class="post-subtitle">
+            Học cách sử dụng câu lệnh điều kiện if-else và switch-case trong Java
+        </h3>
+        
+        
+        
+    </a>
+
+    <p class="post-meta">
+        <span class="post-meta">
+  
+  
+  <i class="fas fa-calendar"></i>&nbsp;Đăng vào 26 Tháng 1, 2024
+  
+  
+  
+  
+    
+      &nbsp;|&nbsp;<i class="fas fa-user"></i>&nbsp;Lâm Lý Hào
+    
+  
+  
+</span>
+
+
+    </p>
+    <div class="post-entry">
+        
+        <h2 id="cấu-trúc-điều-khiển-là-gì">Cấu trúc điều khiển là gì?</h2>
+<p><strong>Cấu trúc điều khiển</strong> cho phép chương trình đưa ra quyết định và thực hiện các hành động khác nhau dựa trên điều kiện. Giống như trong cuộc sống, chúng ta thường phải đưa ra quyết định: &ldquo;Nếu trời mưa thì mang ô, nếu không thì không cần&rdquo;.</p>
+<h2 id="1-câu-lệnh-if">1. Câu lệnh If</h2>
+<h3 id="cú-pháp-cơ-bản">Cú pháp cơ bản:</h3>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-java" data-lang="java"><span class="line"><span class="cl"><span class="k">if</span><span class="w"> </span><span class="p">(</span><span class="n">điều_kiện</span><span class="p">)</span><span class="w"> </span><span class="p">{</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">    </span><span class="c1">// Code thực hiện khi điều kiện đúng</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w"></span><span class="p">}</span><span class="w">
+</span></span></span></code></pre></div><h2 id="2-câu-lệnh-if-else">2. Câu lệnh If-Else</h2>
+<h3 id="cú-pháp">Cú pháp:</h3>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-java" data-lang="java"><span class="line"><span class="cl"><span class="k">if</span><span class="w"> </span><span class="p">(</span><span class="n">điều_kiện</span><span class="p">)</span><span class="w"> </span><span class="p">{</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">    </span><span class="c1">// Code khi điều kiện đúng</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w"></span><span class="p">}</span><span class="w"> </span><span class="k">else</span><span class="w"> </span><span class="p">{</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">    </span><span class="c1">// Code khi điều kiện sai</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w"></span><span class="p">}</span><span class="w">
+</span></span></span></code></pre></div><h2 id="3-câu-lệnh-if-else-if-else">3. Câu lệnh If-Else If-Else</h2>
+<h3 id="cú-pháp-1">Cú pháp:</h3>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-java" data-lang="java"><span class="line"><span class="cl"><span class="k">if</span><span class="w"> </span><span class="p">(</span><span class="n">điều_kiện_1</span><span class="p">)</span><span class="w"> </span><span class="p">{</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">    </span><span class="c1">// Code khi điều kiện 1 đúng</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w"></span><span class="p">}</span><span class="w"> </span><span class="k">else</span><span class="w"> </span><span class="k">if</span><span class="w"> </span><span class="p">(</span><span class="n">điều_kiện_2</span><span class="p">)</span><span class="w"> </span><span class="p">{</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">    </span><span class="c1">// Code khi điều kiện 2 đúng</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w"></span><span class="p">}</span><span class="w"> </span><span class="k">else</span><span class="w"> </span><span class="p">{</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">    </span><span class="c1">// Code khi tất cả điều kiện đều sai</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w"></span><span class="p">}</span><span class="w">
+</span></span></span></code></pre></div><h2 id="4-câu-lệnh-switch-case">4. Câu lệnh Switch-Case</h2>
+<p>Switch-case được sử dụng khi cần so sánh một biến với nhiều giá trị cụ thể.</p>
+        <a href="http://localhost:1313/post/java-co-ban-4/" class="post-read-more">[Đọc thêm]</a>
+        
+    </div>
+
+    
+    <div class="blog-tags">
+        
+       
+       <a href="http://localhost:1313/tags/java/">java</a>&nbsp;
+        
+       
+       <a href="http://localhost:1313/tags/if-else/">if-else</a>&nbsp;
+        
+       
+       <a href="http://localhost:1313/tags/switch/">switch</a>&nbsp;
+        
+       
+       <a href="http://localhost:1313/tags/%C4%91i%E1%BB%81u-ki%E1%BB%87n/">điều kiện</a>&nbsp;
+        
+       
+       <a href="http://localhost:1313/tags/c%C6%A1-b%E1%BA%A3n/">cơ bản</a>&nbsp;
+        
+       
+       <a href="http://localhost:1313/tags/java-c%C6%A1-b%E1%BA%A3n/">Java Cơ Bản</a>&nbsp;
+         
+    </div>
+    
+
+</article>
+          
+            <article class="post-preview">
+    <a href="http://localhost:1313/post/java/java-co-ban-4/">
+        <h2 class="post-title">Java Cơ Bản #4: Cấu Trúc Điều Khiển - If/Else và Switch</h2>
+        
+        <h3 class="post-subtitle">
+            Học cách sử dụng câu lệnh điều kiện if-else và switch-case trong Java
+        </h3>
+        
+        
+        
+    </a>
+
+    <p class="post-meta">
+        <span class="post-meta">
+  
+  
+  <i class="fas fa-calendar"></i>&nbsp;Đăng vào 26 Tháng 1, 2024
+  
+  
+  
+  
+    
+      &nbsp;|&nbsp;<i class="fas fa-user"></i>&nbsp;Lâm Lý Hào
+    
+  
+  
+</span>
+
+
+    </p>
+    <div class="post-entry">
+        
+        <h2 id="cấu-trúc-điều-khiển-là-gì">Cấu trúc điều khiển là gì?</h2>
+<p><strong>Cấu trúc điều khiển</strong> cho phép chương trình đưa ra quyết định và thực hiện các hành động khác nhau dựa trên điều kiện. Giống như trong cuộc sống, chúng ta thường phải đưa ra quyết định: &ldquo;Nếu trời mưa thì mang ô, nếu không thì không cần&rdquo;.</p>
+<h2 id="1-câu-lệnh-if">1. Câu lệnh If</h2>
+<h3 id="cú-pháp-cơ-bản">Cú pháp cơ bản:</h3>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-java" data-lang="java"><span class="line"><span class="cl"><span class="k">if</span><span class="w"> </span><span class="p">(</span><span class="n">điều_kiện</span><span class="p">)</span><span class="w"> </span><span class="p">{</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">    </span><span class="c1">// Code thực hiện khi điều kiện đúng</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w"></span><span class="p">}</span><span class="w">
+</span></span></span></code></pre></div><h2 id="2-câu-lệnh-if-else">2. Câu lệnh If-Else</h2>
+<h3 id="cú-pháp">Cú pháp:</h3>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-java" data-lang="java"><span class="line"><span class="cl"><span class="k">if</span><span class="w"> </span><span class="p">(</span><span class="n">điều_kiện</span><span class="p">)</span><span class="w"> </span><span class="p">{</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">    </span><span class="c1">// Code khi điều kiện đúng</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w"></span><span class="p">}</span><span class="w"> </span><span class="k">else</span><span class="w"> </span><span class="p">{</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">    </span><span class="c1">// Code khi điều kiện sai</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w"></span><span class="p">}</span><span class="w">
+</span></span></span></code></pre></div><h2 id="3-câu-lệnh-if-else-if-else">3. Câu lệnh If-Else If-Else</h2>
+<h3 id="cú-pháp-1">Cú pháp:</h3>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-java" data-lang="java"><span class="line"><span class="cl"><span class="k">if</span><span class="w"> </span><span class="p">(</span><span class="n">điều_kiện_1</span><span class="p">)</span><span class="w"> </span><span class="p">{</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">    </span><span class="c1">// Code khi điều kiện 1 đúng</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w"></span><span class="p">}</span><span class="w"> </span><span class="k">else</span><span class="w"> </span><span class="k">if</span><span class="w"> </span><span class="p">(</span><span class="n">điều_kiện_2</span><span class="p">)</span><span class="w"> </span><span class="p">{</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">    </span><span class="c1">// Code khi điều kiện 2 đúng</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w"></span><span class="p">}</span><span class="w"> </span><span class="k">else</span><span class="w"> </span><span class="p">{</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">    </span><span class="c1">// Code khi tất cả điều kiện đều sai</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w"></span><span class="p">}</span><span class="w">
+</span></span></span></code></pre></div><h2 id="4-câu-lệnh-switch-case">4. Câu lệnh Switch-Case</h2>
+<p>Switch-case được sử dụng khi cần so sánh một biến với nhiều giá trị cụ thể.</p>
+        <a href="http://localhost:1313/post/java/java-co-ban-4/" class="post-read-more">[Đọc thêm]</a>
+        
+    </div>
+
+    
+    <div class="blog-tags">
+        
+       
+       <a href="http://localhost:1313/tags/java/">java</a>&nbsp;
+        
+       
+       <a href="http://localhost:1313/tags/if-else/">if-else</a>&nbsp;
+        
+       
+       <a href="http://localhost:1313/tags/switch/">switch</a>&nbsp;
+        
+       
+       <a href="http://localhost:1313/tags/%C4%91i%E1%BB%81u-ki%E1%BB%87n/">điều kiện</a>&nbsp;
+        
+       
+       <a href="http://localhost:1313/tags/c%C6%A1-b%E1%BA%A3n/">cơ bản</a>&nbsp;
+        
+       
+       <a href="http://localhost:1313/tags/java-c%C6%A1-b%E1%BA%A3n/">Java Cơ Bản</a>&nbsp;
+         
+    </div>
+    
+
+</article>
+          
+            <article class="post-preview">
+    <a href="http://localhost:1313/post/java-co-ban-3/">
+        <h2 class="post-title">Java Cơ Bản #3: Toán Tử và Biểu Thức</h2>
+        
+        <h3 class="post-subtitle">
+            Tìm hiểu các loại toán tử trong Java và cách sử dụng chúng trong biểu thức
+        </h3>
+        
+        
+        
+    </a>
+
+    <p class="post-meta">
+        <span class="post-meta">
+  
+  
+  <i class="fas fa-calendar"></i>&nbsp;Đăng vào 24 Tháng 1, 2024
+  
+  
+  
+  
+    
+      &nbsp;|&nbsp;<i class="fas fa-user"></i>&nbsp;Lâm Lý Hào
+    
+  
+  
+</span>
+
+
+    </p>
+    <div class="post-entry">
+        
+        <h2 id="toán-tử-là-gì">Toán tử là gì?</h2>
+<p><strong>Toán tử</strong> (Operator) là các ký hiệu đặc biệt được sử dụng để thực hiện các phép toán trên dữ liệu. <strong>Biểu thức</strong> (Expression) là sự kết hợp của các biến, hằng số và toán tử.</p>
+<p>Ví dụ:</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-java" data-lang="java"><span class="line"><span class="cl"><span class="kt">int</span><span class="w"> </span><span class="n">a</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">5</span><span class="p">;</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w"></span><span class="kt">int</span><span class="w"> </span><span class="n">b</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">3</span><span class="p">;</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w"></span><span class="kt">int</span><span class="w"> </span><span class="n">ketQua</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">a</span><span class="w"> </span><span class="o">+</span><span class="w"> </span><span class="n">b</span><span class="p">;</span><span class="w"> </span><span class="c1">// &#34;a + b&#34; là một biểu thức, &#34;+&#34; là toán tử</span><span class="w">
+</span></span></span></code></pre></div><h2 id="1-toán-tử-số-học-arithmetic-operators">1. Toán tử số học (Arithmetic Operators)</h2>
+<table>
+  <thead>
+      <tr>
+          <th>Toán tử</th>
+          <th>Ý nghĩa</th>
+          <th>Ví dụ</th>
+          <th>Kết quả</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td><code>+</code></td>
+          <td>Cộng</td>
+          <td><code>5 + 3</code></td>
+          <td><code>8</code></td>
+      </tr>
+      <tr>
+          <td><code>-</code></td>
+          <td>Trừ</td>
+          <td><code>5 - 3</code></td>
+          <td><code>2</code></td>
+      </tr>
+      <tr>
+          <td><code>*</code></td>
+          <td>Nhân</td>
+          <td><code>5 * 3</code></td>
+          <td><code>15</code></td>
+      </tr>
+      <tr>
+          <td><code>/</code></td>
+          <td>Chia</td>
+          <td><code>10 / 3</code></td>
+          <td><code>3</code> (chia nguyên)</td>
+      </tr>
+      <tr>
+          <td><code>%</code></td>
+          <td>Chia lấy dư</td>
+          <td><code>10 % 3</code></td>
+          <td><code>1</code></td>
+      </tr>
+  </tbody>
+</table>
+<h2 id="2-toán-tử-gán-assignment-operators">2. Toán tử gán (Assignment Operators)</h2>
+<table>
+  <thead>
+      <tr>
+          <th>Toán tử</th>
+          <th>Tương đương</th>
+          <th>Ví dụ</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td><code>+=</code></td>
+          <td><code>a = a + b</code></td>
+          <td><code>a += b</code></td>
+      </tr>
+      <tr>
+          <td><code>-=</code></td>
+          <td><code>a = a - b</code></td>
+          <td><code>a -= b</code></td>
+      </tr>
+      <tr>
+          <td><code>*=</code></td>
+          <td><code>a = a * b</code></td>
+          <td><code>a *= b</code></td>
+      </tr>
+      <tr>
+          <td><code>/=</code></td>
+          <td><code>a = a / b</code></td>
+          <td><code>a /= b</code></td>
+      </tr>
+      <tr>
+          <td><code>%=</code></td>
+          <td><code>a = a % b</code></td>
+          <td><code>a %= b</code></td>
+      </tr>
+  </tbody>
+</table>
+<h2 id="3-toán-tử-so-sánh-comparison-operators">3. Toán tử so sánh (Comparison Operators)</h2>
+<table>
+  <thead>
+      <tr>
+          <th>Toán tử</th>
+          <th>Ý nghĩa</th>
+          <th>Ví dụ</th>
+          <th>Kết quả</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td><code>==</code></td>
+          <td>Bằng</td>
+          <td><code>5 == 3</code></td>
+          <td><code>false</code></td>
+      </tr>
+      <tr>
+          <td><code>!=</code></td>
+          <td>Khác</td>
+          <td><code>5 != 3</code></td>
+          <td><code>true</code></td>
+      </tr>
+      <tr>
+          <td><code>&gt;</code></td>
+          <td>Lớn hơn</td>
+          <td><code>5 &gt; 3</code></td>
+          <td><code>true</code></td>
+      </tr>
+      <tr>
+          <td><code>&lt;</code></td>
+          <td>Nhỏ hơn</td>
+          <td><code>5 &lt; 3</code></td>
+          <td><code>false</code></td>
+      </tr>
+      <tr>
+          <td><code>&gt;=</code></td>
+          <td>Lớn hơn hoặc bằng</td>
+          <td><code>5 &gt;= 5</code></td>
+          <td><code>true</code></td>
+      </tr>
+      <tr>
+          <td><code>&lt;=</code></td>
+          <td>Nhỏ hơn hoặc bằng</td>
+          <td><code>3 &lt;= 5</code></td>
+          <td><code>true</code></td>
+      </tr>
+  </tbody>
+</table>
+<h2 id="4-toán-tử-logic-logical-operators">4. Toán tử logic (Logical Operators)</h2>
+<table>
+  <thead>
+      <tr>
+          <th>Toán tử</th>
+          <th>Ý nghĩa</th>
+          <th>Ví dụ</th>
+          <th>Kết quả</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td><code>&amp;&amp;</code></td>
+          <td>VÀ (AND)</td>
+          <td><code>true &amp;&amp; false</code></td>
+          <td><code>false</code></td>
+      </tr>
+      <tr>
+          <td>`</td>
+          <td></td>
+          <td>`</td>
+          <td>HOẶC (OR)</td>
+      </tr>
+      <tr>
+          <td><code>!</code></td>
+          <td>PHỦ ĐỊNH (NOT)</td>
+          <td><code>!true</code></td>
+          <td><code>false</code></td>
+      </tr>
+  </tbody>
+</table>
+
+        
+    </div>
+
+    
+    <div class="blog-tags">
+        
+       
+       <a href="http://localhost:1313/tags/java/">java</a>&nbsp;
+        
+       
+       <a href="http://localhost:1313/tags/to%C3%A1n-t%E1%BB%AD/">toán tử</a>&nbsp;
+        
+       
+       <a href="http://localhost:1313/tags/bi%E1%BB%83u-th%E1%BB%A9c/">biểu thức</a>&nbsp;
+        
+       
+       <a href="http://localhost:1313/tags/c%C6%A1-b%E1%BA%A3n/">cơ bản</a>&nbsp;
+        
+       
+       <a href="http://localhost:1313/tags/java-c%C6%A1-b%E1%BA%A3n/">Java Cơ Bản</a>&nbsp;
+         
+    </div>
+    
+
+</article>
+          
+            <article class="post-preview">
+    <a href="http://localhost:1313/post/java/java-co-ban-3/">
+        <h2 class="post-title">Java Cơ Bản #3: Toán Tử và Biểu Thức</h2>
+        
+        <h3 class="post-subtitle">
+            Tìm hiểu các loại toán tử trong Java và cách sử dụng chúng trong biểu thức
+        </h3>
+        
+        
+        
+    </a>
+
+    <p class="post-meta">
+        <span class="post-meta">
+  
+  
+  <i class="fas fa-calendar"></i>&nbsp;Đăng vào 24 Tháng 1, 2024
+  
+  
+  
+  
+    
+      &nbsp;|&nbsp;<i class="fas fa-user"></i>&nbsp;Lâm Lý Hào
+    
+  
+  
+</span>
+
+
+    </p>
+    <div class="post-entry">
+        
+        <h2 id="toán-tử-là-gì">Toán tử là gì?</h2>
+<p><strong>Toán tử</strong> (Operator) là các ký hiệu đặc biệt được sử dụng để thực hiện các phép toán trên dữ liệu. <strong>Biểu thức</strong> (Expression) là sự kết hợp của các biến, hằng số và toán tử.</p>
+<h2 id="1-toán-tử-số-học-arithmetic-operators">1. Toán tử số học (Arithmetic Operators)</h2>
+<table>
+  <thead>
+      <tr>
+          <th>Toán tử</th>
+          <th>Ý nghĩa</th>
+          <th>Ví dụ</th>
+          <th>Kết quả</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td><code>+</code></td>
+          <td>Cộng</td>
+          <td><code>5 + 3</code></td>
+          <td><code>8</code></td>
+      </tr>
+      <tr>
+          <td><code>-</code></td>
+          <td>Trừ</td>
+          <td><code>5 - 3</code></td>
+          <td><code>2</code></td>
+      </tr>
+      <tr>
+          <td><code>*</code></td>
+          <td>Nhân</td>
+          <td><code>5 * 3</code></td>
+          <td><code>15</code></td>
+      </tr>
+      <tr>
+          <td><code>/</code></td>
+          <td>Chia</td>
+          <td><code>10 / 3</code></td>
+          <td><code>3</code> (chia nguyên)</td>
+      </tr>
+      <tr>
+          <td><code>%</code></td>
+          <td>Chia lấy dư</td>
+          <td><code>10 % 3</code></td>
+          <td><code>1</code></td>
+      </tr>
+  </tbody>
+</table>
+<h2 id="2-toán-tử-gán-assignment-operators">2. Toán tử gán (Assignment Operators)</h2>
+<table>
+  <thead>
+      <tr>
+          <th>Toán tử</th>
+          <th>Tương đương</th>
+          <th>Ví dụ</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td><code>+=</code></td>
+          <td><code>a = a + b</code></td>
+          <td><code>a += b</code></td>
+      </tr>
+      <tr>
+          <td><code>-=</code></td>
+          <td><code>a = a - b</code></td>
+          <td><code>a -= b</code></td>
+      </tr>
+      <tr>
+          <td><code>*=</code></td>
+          <td><code>a = a * b</code></td>
+          <td><code>a *= b</code></td>
+      </tr>
+      <tr>
+          <td><code>/=</code></td>
+          <td><code>a = a / b</code></td>
+          <td><code>a /= b</code></td>
+      </tr>
+      <tr>
+          <td><code>%=</code></td>
+          <td><code>a = a % b</code></td>
+          <td><code>a %= b</code></td>
+      </tr>
+  </tbody>
+</table>
+<h2 id="3-toán-tử-so-sánh-comparison-operators">3. Toán tử so sánh (Comparison Operators)</h2>
+<table>
+  <thead>
+      <tr>
+          <th>Toán tử</th>
+          <th>Ý nghĩa</th>
+          <th>Ví dụ</th>
+          <th>Kết quả</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td><code>==</code></td>
+          <td>Bằng</td>
+          <td><code>5 == 3</code></td>
+          <td><code>false</code></td>
+      </tr>
+      <tr>
+          <td><code>!=</code></td>
+          <td>Khác</td>
+          <td><code>5 != 3</code></td>
+          <td><code>true</code></td>
+      </tr>
+      <tr>
+          <td><code>&gt;</code></td>
+          <td>Lớn hơn</td>
+          <td><code>5 &gt; 3</code></td>
+          <td><code>true</code></td>
+      </tr>
+      <tr>
+          <td><code>&lt;</code></td>
+          <td>Nhỏ hơn</td>
+          <td><code>5 &lt; 3</code></td>
+          <td><code>false</code></td>
+      </tr>
+      <tr>
+          <td><code>&gt;=</code></td>
+          <td>Lớn hơn hoặc bằng</td>
+          <td><code>5 &gt;= 5</code></td>
+          <td><code>true</code></td>
+      </tr>
+      <tr>
+          <td><code>&lt;=</code></td>
+          <td>Nhỏ hơn hoặc bằng</td>
+          <td><code>3 &lt;= 5</code></td>
+          <td><code>true</code></td>
+      </tr>
+  </tbody>
+</table>
+<h2 id="4-toán-tử-logic-logical-operators">4. Toán tử logic (Logical Operators)</h2>
+<table>
+  <thead>
+      <tr>
+          <th>Toán tử</th>
+          <th>Ý nghĩa</th>
+          <th>Ví dụ</th>
+          <th>Kết quả</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td><code>&amp;&amp;</code></td>
+          <td>VÀ (AND)</td>
+          <td><code>true &amp;&amp; false</code></td>
+          <td><code>false</code></td>
+      </tr>
+      <tr>
+          <td>`</td>
+          <td></td>
+          <td>`</td>
+          <td>HOẶC (OR)</td>
+      </tr>
+      <tr>
+          <td><code>!</code></td>
+          <td>PHỦ ĐỊNH (NOT)</td>
+          <td><code>!true</code></td>
+          <td><code>false</code></td>
+      </tr>
+  </tbody>
+</table>
+
+        
+    </div>
+
+    
+    <div class="blog-tags">
+        
+       
+       <a href="http://localhost:1313/tags/java/">java</a>&nbsp;
+        
+       
+       <a href="http://localhost:1313/tags/to%C3%A1n-t%E1%BB%AD/">toán tử</a>&nbsp;
+        
+       
+       <a href="http://localhost:1313/tags/bi%E1%BB%83u-th%E1%BB%A9c/">biểu thức</a>&nbsp;
+        
+       
+       <a href="http://localhost:1313/tags/c%C6%A1-b%E1%BA%A3n/">cơ bản</a>&nbsp;
+        
+       
+       <a href="http://localhost:1313/tags/java-c%C6%A1-b%E1%BA%A3n/">Java Cơ Bản</a>&nbsp;
+         
+    </div>
+    
+
+</article>
+          
+            <article class="post-preview">
+    <a href="http://localhost:1313/post/java-co-ban-2/">
+        <h2 class="post-title">Java Cơ Bản #2: Biến và Kiểu Dữ Liệu</h2>
+        
+        <h3 class="post-subtitle">
+            Tìm hiểu về biến và các kiểu dữ liệu cơ bản trong Java với ví dụ thực tế
+        </h3>
+        
+        
+        
+    </a>
+
+    <p class="post-meta">
+        <span class="post-meta">
+  
+  
+  <i class="fas fa-calendar"></i>&nbsp;Đăng vào 22 Tháng 1, 2024
+  
+  
+  
+  
+    
+      &nbsp;|&nbsp;<i class="fas fa-user"></i>&nbsp;Lâm Lý Hào
+    
+  
+  
+</span>
+
+
+    </p>
+    <div class="post-entry">
+        
+        <h2 id="biến-là-gì">Biến là gì?</h2>
+<p><strong>Biến</strong> (Variable) là một &ldquo;hộp&rdquo; để lưu trữ dữ liệu trong chương trình. Mỗi biến có một tên và một kiểu dữ liệu cụ thể.</p>
+<p>Ví dụ đơn giản:</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-java" data-lang="java"><span class="line"><span class="cl"><span class="kt">int</span><span class="w"> </span><span class="n">tuoi</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">25</span><span class="p">;</span><span class="w">        </span><span class="c1">// Biến lưu số tuổi</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w"></span><span class="n">String</span><span class="w"> </span><span class="n">ten</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="s">&#34;Nam&#34;</span><span class="p">;</span><span class="w">   </span><span class="c1">// Biến lưu tên</span><span class="w">
+</span></span></span></code></pre></div><h2 id="cách-khai-báo-biến">Cách khai báo biến</h2>
+<h3 id="cú-pháp-cơ-bản">Cú pháp cơ bản:</h3>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-java" data-lang="java"><span class="line"><span class="cl"><span class="n">kieuDuLieu</span><span class="w"> </span><span class="n">tenBien</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">giaTriKhoiTao</span><span class="p">;</span><span class="w">
+</span></span></span></code></pre></div><h3 id="ví-dụ">Ví dụ:</h3>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-java" data-lang="java"><span class="line"><span class="cl"><span class="kd">public</span><span class="w"> </span><span class="kd">class</span> <span class="nc">BienVaKieuDuLieu</span><span class="w"> </span><span class="p">{</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">    </span><span class="kd">public</span><span class="w"> </span><span class="kd">static</span><span class="w"> </span><span class="kt">void</span><span class="w"> </span><span class="nf">main</span><span class="p">(</span><span class="n">String</span><span class="o">[]</span><span class="w"> </span><span class="n">args</span><span class="p">)</span><span class="w"> </span><span class="p">{</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">        </span><span class="c1">// Khai báo và gán giá trị</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">        </span><span class="kt">int</span><span class="w"> </span><span class="n">soHoc</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">10</span><span class="p">;</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">        </span><span class="kt">double</span><span class="w"> </span><span class="n">diemTrungBinh</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">8</span><span class="p">.</span><span class="na">5</span><span class="p">;</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">        </span><span class="n">String</span><span class="w"> </span><span class="n">hoTen</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="s">&#34;Nguyễn Văn A&#34;</span><span class="p">;</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">        </span><span class="kt">boolean</span><span class="w"> </span><span class="n">daHoc</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="kc">true</span><span class="p">;</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">        
+</span></span></span><span class="line"><span class="cl"><span class="w">        </span><span class="c1">// In ra màn hình</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">        </span><span class="n">System</span><span class="p">.</span><span class="na">out</span><span class="p">.</span><span class="na">println</span><span class="p">(</span><span class="s">&#34;Số học: &#34;</span><span class="w"> </span><span class="o">+</span><span class="w"> </span><span class="n">soHoc</span><span class="p">);</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">        </span><span class="n">System</span><span class="p">.</span><span class="na">out</span><span class="p">.</span><span class="na">println</span><span class="p">(</span><span class="s">&#34;Điểm TB: &#34;</span><span class="w"> </span><span class="o">+</span><span class="w"> </span><span class="n">diemTrungBinh</span><span class="p">);</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">        </span><span class="n">System</span><span class="p">.</span><span class="na">out</span><span class="p">.</span><span class="na">println</span><span class="p">(</span><span class="s">&#34;Họ tên: &#34;</span><span class="w"> </span><span class="o">+</span><span class="w"> </span><span class="n">hoTen</span><span class="p">);</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">        </span><span class="n">System</span><span class="p">.</span><span class="na">out</span><span class="p">.</span><span class="na">println</span><span class="p">(</span><span class="s">&#34;Đã học: &#34;</span><span class="w"> </span><span class="o">+</span><span class="w"> </span><span class="n">daHoc</span><span class="p">);</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">    </span><span class="p">}</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w"></span><span class="p">}</span><span class="w">
+</span></span></span></code></pre></div><h2 id="các-kiểu-dữ-liệu-cơ-bản">Các kiểu dữ liệu cơ bản</h2>
+<h3 id="1-kiểu-số-nguyên">1. Kiểu số nguyên</h3>
+<table>
+  <thead>
+      <tr>
+          <th>Kiểu</th>
+          <th>Kích thước</th>
+          <th>Phạm vi</th>
+          <th>Ví dụ</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td><code>byte</code></td>
+          <td>1 byte</td>
+          <td>-128 đến 127</td>
+          <td><code>byte tuoi = 25;</code></td>
+      </tr>
+      <tr>
+          <td><code>short</code></td>
+          <td>2 byte</td>
+          <td>-32,768 đến 32,767</td>
+          <td><code>short nam = 2024;</code></td>
+      </tr>
+      <tr>
+          <td><code>int</code></td>
+          <td>4 byte</td>
+          <td>-2 tỷ đến 2 tỷ</td>
+          <td><code>int luong = 15000000;</code></td>
+      </tr>
+      <tr>
+          <td><code>long</code></td>
+          <td>8 byte</td>
+          <td>Rất lớn</td>
+          <td><code>long danSo = 97000000L;</code></td>
+      </tr>
+  </tbody>
+</table>
+<h3 id="2-kiểu-số-thực">2. Kiểu số thực</h3>
+<table>
+  <thead>
+      <tr>
+          <th>Kiểu</th>
+          <th>Kích thước</th>
+          <th>Độ chính xác</th>
+          <th>Ví dụ</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td><code>float</code></td>
+          <td>4 byte</td>
+          <td>7 chữ số</td>
+          <td><code>float diem = 8.5f;</code></td>
+      </tr>
+      <tr>
+          <td><code>double</code></td>
+          <td>8 byte</td>
+          <td>15 chữ số</td>
+          <td><code>double pi = 3.14159;</code></td>
+      </tr>
+  </tbody>
+</table>
+<h3 id="3-kiểu-ký-tự-và-chuỗi">3. Kiểu ký tự và chuỗi</h3>
+<ul>
+<li><code>char</code>: Lưu một ký tự duy nhất, ví dụ: <code>char kyTu = 'A';</code></li>
+<li><code>String</code>: Lưu một chuỗi ký tự, ví dụ: <code>String ten = &quot;Java&quot;;</code></li>
+</ul>
+<h3 id="4-kiểu-logic">4. Kiểu logic</h3>
+<ul>
+<li><code>boolean</code>: Chỉ có hai giá trị <code>true</code> hoặc <code>false</code>, ví dụ: <code>boolean daKetHon = false;</code></li>
+</ul>
+
+        
+    </div>
+
+    
+    <div class="blog-tags">
+        
+       
+       <a href="http://localhost:1313/tags/java/">java</a>&nbsp;
+        
+       
+       <a href="http://localhost:1313/tags/bi%E1%BA%BFn/">biến</a>&nbsp;
+        
+       
+       <a href="http://localhost:1313/tags/ki%E1%BB%83u-d%E1%BB%AF-li%E1%BB%87u/">kiểu dữ liệu</a>&nbsp;
+        
+       
+       <a href="http://localhost:1313/tags/c%C6%A1-b%E1%BA%A3n/">cơ bản</a>&nbsp;
+        
+       
+       <a href="http://localhost:1313/tags/java-c%C6%A1-b%E1%BA%A3n/">Java Cơ Bản</a>&nbsp;
+         
+    </div>
+    
+
+</article>
+          
+            <article class="post-preview">
+    <a href="http://localhost:1313/post/java/java-co-ban-2/">
+        <h2 class="post-title">Java Cơ Bản #2: Biến và Kiểu Dữ Liệu</h2>
+        
+        <h3 class="post-subtitle">
+            Tìm hiểu về biến và các kiểu dữ liệu cơ bản trong Java với ví dụ thực tế
+        </h3>
+        
+        
+        
+    </a>
+
+    <p class="post-meta">
+        <span class="post-meta">
+  
+  
+  <i class="fas fa-calendar"></i>&nbsp;Đăng vào 22 Tháng 1, 2024
+  
+  
+  
+  
+    
+      &nbsp;|&nbsp;<i class="fas fa-user"></i>&nbsp;Lâm Lý Hào
+    
+  
+  
+</span>
+
+
+    </p>
+    <div class="post-entry">
+        
+        <h2 id="biến-là-gì">Biến là gì?</h2>
+<p><strong>Biến</strong> (Variable) là một &ldquo;hộp&rdquo; để lưu trữ dữ liệu trong chương trình. Mỗi biến có một tên và một kiểu dữ liệu cụ thể.</p>
+<p>Ví dụ đơn giản:</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-java" data-lang="java"><span class="line"><span class="cl"><span class="kt">int</span><span class="w"> </span><span class="n">tuoi</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">25</span><span class="p">;</span><span class="w">        </span><span class="c1">// Biến lưu số tuổi</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w"></span><span class="n">String</span><span class="w"> </span><span class="n">ten</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="s">&#34;Nam&#34;</span><span class="p">;</span><span class="w">   </span><span class="c1">// Biến lưu tên</span><span class="w">
+</span></span></span></code></pre></div><h2 id="cách-khai-báo-biến">Cách khai báo biến</h2>
+<h3 id="cú-pháp-cơ-bản">Cú pháp cơ bản:</h3>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-java" data-lang="java"><span class="line"><span class="cl"><span class="n">kieuDuLieu</span><span class="w"> </span><span class="n">tenBien</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">giaTriKhoiTao</span><span class="p">;</span><span class="w">
+</span></span></span></code></pre></div><h2 id="các-kiểu-dữ-liệu-cơ-bản">Các kiểu dữ liệu cơ bản</h2>
+<h3 id="1-kiểu-số-nguyên">1. Kiểu số nguyên</h3>
+<table>
+  <thead>
+      <tr>
+          <th>Kiểu</th>
+          <th>Kích thước</th>
+          <th>Phạm vi</th>
+          <th>Ví dụ</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td><code>byte</code></td>
+          <td>1 byte</td>
+          <td>-128 đến 127</td>
+          <td><code>byte tuoi = 25;</code></td>
+      </tr>
+      <tr>
+          <td><code>short</code></td>
+          <td>2 byte</td>
+          <td>-32,768 đến 32,767</td>
+          <td><code>short nam = 2024;</code></td>
+      </tr>
+      <tr>
+          <td><code>int</code></td>
+          <td>4 byte</td>
+          <td>-2 tỷ đến 2 tỷ</td>
+          <td><code>int luong = 15000000;</code></td>
+      </tr>
+      <tr>
+          <td><code>long</code></td>
+          <td>8 byte</td>
+          <td>Rất lớn</td>
+          <td><code>long danSo = 97000000L;</code></td>
+      </tr>
+  </tbody>
+</table>
+<h3 id="2-kiểu-số-thực">2. Kiểu số thực</h3>
+<table>
+  <thead>
+      <tr>
+          <th>Kiểu</th>
+          <th>Kích thước</th>
+          <th>Độ chính xác</th>
+          <th>Ví dụ</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td><code>float</code></td>
+          <td>4 byte</td>
+          <td>7 chữ số</td>
+          <td><code>float diem = 8.5f;</code></td>
+      </tr>
+      <tr>
+          <td><code>double</code></td>
+          <td>8 byte</td>
+          <td>15 chữ số</td>
+          <td><code>double pi = 3.14159;</code></td>
+      </tr>
+  </tbody>
+</table>
+<h3 id="3-kiểu-ký-tự-và-chuỗi">3. Kiểu ký tự và chuỗi</h3>
+<ul>
+<li><code>char</code>: Lưu một ký tự duy nhất, ví dụ: <code>char kyTu = 'A';</code></li>
+<li><code>String</code>: Lưu một chuỗi ký tự, ví dụ: <code>String ten = &quot;Java&quot;;</code></li>
+</ul>
+<h3 id="4-kiểu-logic">4. Kiểu logic</h3>
+<ul>
+<li><code>boolean</code>: Chỉ có hai giá trị <code>true</code> hoặc <code>false</code>, ví dụ: <code>boolean daKetHon = false;</code></li>
+</ul>
+
+        
+    </div>
+
+    
+    <div class="blog-tags">
+        
+       
+       <a href="http://localhost:1313/tags/java/">java</a>&nbsp;
+        
+       
+       <a href="http://localhost:1313/tags/bi%E1%BA%BFn/">biến</a>&nbsp;
+        
+       
+       <a href="http://localhost:1313/tags/ki%E1%BB%83u-d%E1%BB%AF-li%E1%BB%87u/">kiểu dữ liệu</a>&nbsp;
+        
+       
+       <a href="http://localhost:1313/tags/c%C6%A1-b%E1%BA%A3n/">cơ bản</a>&nbsp;
+        
+       
+       <a href="http://localhost:1313/tags/java-c%C6%A1-b%E1%BA%A3n/">Java Cơ Bản</a>&nbsp;
+         
+    </div>
+    
+
+</article>
+          
+            <article class="post-preview">
+    <a href="http://localhost:1313/post/java-co-ban-1/">
+        <h2 class="post-title">Java Cơ Bản #1: Giới Thiệu Về Java và Cài Đặt Môi Trường</h2>
+        
+        <h3 class="post-subtitle">
+            Giới thiệu về ngôn ngữ lập trình Java, tại sao nên học và hướng dẫn cài đặt môi trường phát triển.
+        </h3>
+        
+        
+        
+    </a>
+
+    <p class="post-meta">
+        <span class="post-meta">
+  
+  
+  <i class="fas fa-calendar"></i>&nbsp;Đăng vào 20 Tháng 1, 2024
+  
+  
+  
+  
+    
+      &nbsp;|&nbsp;<i class="fas fa-user"></i>&nbsp;Lâm Lý Hào
+    
+  
+  
+</span>
+
+
+    </p>
+    <div class="post-entry">
+        
+        <h2 id="java-là-gì">Java là gì?</h2>
+<p>Java là một ngôn ngữ lập trình hướng đối tượng được phát triển bởi Sun Microsystems (hiện thuộc Oracle) vào năm 1995. Java nổi tiếng với slogan <strong>&ldquo;Write Once, Run Anywhere&rdquo;</strong> (Viết một lần, chạy mọi nơi).</p>
+<h3 id="tại-sao-nên-học-java">Tại sao nên học Java?</h3>
+<ol>
+<li><strong>Phổ biến</strong>: Java là một trong những ngôn ngữ được sử dụng nhiều nhất thế giới</li>
+<li><strong>Đa nền tảng</strong>: Code Java có thể chạy trên Windows, Mac, Linux</li>
+<li><strong>Cộng đồng lớn</strong>: Có rất nhiều tài liệu và hỗ trợ từ cộng đồng</li>
+<li><strong>Cơ hội việc làm</strong>: Nhiều công ty tuyển dụng lập trình viên Java</li>
+</ol>
+<h2 id="cài-đặt-môi-trường-java">Cài đặt môi trường Java</h2>
+<h3 id="bước-1-tải-và-cài-đặt-jdk">Bước 1: Tải và cài đặt JDK</h3>
+<p><strong>JDK</strong> (Java Development Kit) là bộ công cụ phát triển Java.</p>
+        <a href="http://localhost:1313/post/java-co-ban-1/" class="post-read-more">[Đọc thêm]</a>
+        
+    </div>
+
+    
+    <div class="blog-tags">
+        
+       
+       <a href="http://localhost:1313/tags/java/">java</a>&nbsp;
+        
+       
+       <a href="http://localhost:1313/tags/c%C3%A0i-%C4%91%E1%BA%B7t/">cài đặt</a>&nbsp;
+        
+       
+       <a href="http://localhost:1313/tags/m%C3%B4i-tr%C6%B0%E1%BB%9Dng/">môi trường</a>&nbsp;
+        
+       
+       <a href="http://localhost:1313/tags/c%C6%A1-b%E1%BA%A3n/">cơ bản</a>&nbsp;
+        
+       
+       <a href="http://localhost:1313/tags/java-c%C6%A1-b%E1%BA%A3n/">Java Cơ Bản</a>&nbsp;
+         
+    </div>
+    
+
+</article>
+          
+            <article class="post-preview">
+    <a href="http://localhost:1313/post/java/java-co-ban-1/">
+        <h2 class="post-title">Java Cơ Bản #1: Giới Thiệu Về Java và Cài Đặt Môi Trường</h2>
+        
+        <h3 class="post-subtitle">
+            Giới thiệu về ngôn ngữ lập trình Java, tại sao nên học và hướng dẫn cài đặt môi trường phát triển.
+        </h3>
+        
+        
+        
+    </a>
+
+    <p class="post-meta">
+        <span class="post-meta">
+  
+  
+  <i class="fas fa-calendar"></i>&nbsp;Đăng vào 20 Tháng 1, 2024
+  
+  
+  
+  
+    
+      &nbsp;|&nbsp;<i class="fas fa-user"></i>&nbsp;Lâm Lý Hào
+    
+  
+  
+</span>
+
+
+    </p>
+    <div class="post-entry">
+        
+        <h2 id="java-là-gì">Java là gì?</h2>
+<p>Java là một ngôn ngữ lập trình hướng đối tượng được phát triển bởi Sun Microsystems (hiện thuộc Oracle) vào năm 1995. Java nổi tiếng với slogan <strong>&ldquo;Write Once, Run Anywhere&rdquo;</strong> (Viết một lần, chạy mọi nơi).</p>
+<h3 id="tại-sao-nên-học-java">Tại sao nên học Java?</h3>
+<ol>
+<li><strong>Phổ biến</strong>: Java là một trong những ngôn ngữ được sử dụng nhiều nhất thế giới</li>
+<li><strong>Đa nền tảng</strong>: Code Java có thể chạy trên Windows, Mac, Linux</li>
+<li><strong>Cộng đồng lớn</strong>: Có rất nhiều tài liệu và hỗ trợ từ cộng đồng</li>
+<li><strong>Cơ hội việc làm</strong>: Nhiều công ty tuyển dụng lập trình viên Java</li>
+</ol>
+<h2 id="cài-đặt-môi-trường-java">Cài đặt môi trường Java</h2>
+<h3 id="bước-1-tải-và-cài-đặt-jdk">Bước 1: Tải và cài đặt JDK</h3>
+<p><strong>JDK</strong> (Java Development Kit) là bộ công cụ phát triển Java.</p>
+        <a href="http://localhost:1313/post/java/java-co-ban-1/" class="post-read-more">[Đọc thêm]</a>
+        
+    </div>
+
+    
+    <div class="blog-tags">
+        
+       
+       <a href="http://localhost:1313/tags/java/">java</a>&nbsp;
+        
+       
+       <a href="http://localhost:1313/tags/c%C3%A0i-%C4%91%E1%BA%B7t/">cài đặt</a>&nbsp;
+        
+       
+       <a href="http://localhost:1313/tags/m%C3%B4i-tr%C6%B0%E1%BB%9Dng/">môi trường</a>&nbsp;
+        
+       
+       <a href="http://localhost:1313/tags/c%C6%A1-b%E1%BA%A3n/">cơ bản</a>&nbsp;
+        
+       
+       <a href="http://localhost:1313/tags/java-c%C6%A1-b%E1%BA%A3n/">Java Cơ Bản</a>&nbsp;
+         
+    </div>
+    
+
+</article>
+          
+        </div>
+
+        
+          <ul class="pager main-pager">
+            
+              <li class="previous">
+                <a href="http://localhost:1313/page/1/">&larr; Bài viết mới hơn</a>
+              </li>
+            
+            
+          </ul>
+        
+      </div>
+    </div>
+  </div>
+
+      
+    <div class="page-meta">
+  
+  
+  
+</div>
+
+
+  <footer>
+  <div class="container">
+    
+    <div class="row">
+      <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+        <ul class="list-inline text-center footer-links">
+          
+              <li>
+		
+		  <a href="mailto:lamlyhao453@gmail.com" title="Email me">
+		
+                  <span class="fa-stack fa-lg">
+                    <i class="fas fa-circle fa-stack-2x"></i>
+                    <i class="fas fa-envelope fa-stack-1x fa-inverse"></i>
+                  </span>
+                </a>
+              </li>
+              <li>
+		
+		  <a href="https://www.facebook.com/ly.hao.268139" title="Facebook">
+		
+                  <span class="fa-stack fa-lg">
+                    <i class="fas fa-circle fa-stack-2x"></i>
+                    <i class="fab fa-facebook fa-stack-1x fa-inverse"></i>
+                  </span>
+                </a>
+              </li>
+              <li>
+		
+		  <a href="https://github.com/llhisme" title="GitHub">
+		
+                  <span class="fa-stack fa-lg">
+                    <i class="fas fa-circle fa-stack-2x"></i>
+                    <i class="fab fa-github fa-stack-1x fa-inverse"></i>
+                  </span>
+                </a>
+              </li>
+              <li>
+		
+		  <a href="https://www.instagram.com/oahyl1704" title="Instagram">
+		
+                  <span class="fa-stack fa-lg">
+                    <i class="fas fa-circle fa-stack-2x"></i>
+                    <i class="fab fa-instagram fa-stack-1x fa-inverse"></i>
+                  </span>
+                </a>
+              </li>
+              <li>
+		
+		  <a href="https://www.youtube.com/@lyhao1704" title="Youtube">
+		
+                  <span class="fa-stack fa-lg">
+                    <i class="fas fa-circle fa-stack-2x"></i>
+                    <i class="fab fa-youtube fa-stack-1x fa-inverse"></i>
+                  </span>
+                </a>
+              </li>
+          
+        </ul>
+        <p class="credits copyright text-muted">
+          
+            
+              <a href="yourwebsite.com">Lâm Lý Hào</a>
+            
+          
+
+          &nbsp;&bull;&nbsp;&copy;
+          
+            2024
+          
+
+          
+            &nbsp;&bull;&nbsp;
+            <a href="http://localhost:1313/">LLHISME&#39;S Blog</a>
+          
+        </p>
+        
+        <p class="credits theme-by text-muted">
+          <a href="https://gohugo.io">Hugo v0.150.1</a> vận hành &nbsp;&bull;&nbsp; Giao diện <a href="https://github.com/halogenica/beautifulhugo">Beautiful Hugo</a> được điều chỉnh từ <a href="https://deanattali.com/beautiful-jekyll/">Beautiful Jekyll</a>
+          
+        </p>
+      </div>
+    </div>
+  </div>
+</footer><script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.7/dist/katex.min.js" integrity="sha384-G0zcxDFp5LWZtDuRMnBkk3EphCK1lhEf4UEyEM693ka574TZGwo4IWwS6QLzM/2t" crossorigin="anonymous"></script>
+<script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.7/dist/contrib/auto-render.min.js" integrity="sha384-+VBxd3r6XgURycqtZ117nYw44OOcIax56Z4dCRWbxyPt0Koah1uHoK0o4+/RRE05" crossorigin="anonymous" onload="renderMathInElement(document.body);"></script>
+<script src="https://code.jquery.com/jquery-3.7.0.slim.min.js" integrity="sha384-w5y/xIeYixWvfM+A1cEbmHPURnvyqmVg5eVENruEdDjcyRLUSNej7512JQGspFUr" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@3.4.1/dist/js/bootstrap.min.js" integrity="sha384-aJ21OjlMXNL5UyIl/XNwTMqvzeRMZH2w8c5cRVpzpU8Y5bApTppSuUkhZXN0VxHd" crossorigin="anonymous"></script>
+
+<script src="http://localhost:1313/js/main.js"></script>
+<script src="http://localhost:1313/js/highlight.min.js"></script>
+<script> hljs.initHighlightingOnLoad(); </script>
+<script> $(document).ready(function() {$("pre.chroma").css("padding","0");}); </script><script src="https://cdnjs.cloudflare.com/ajax/libs/photoswipe/4.1.2/photoswipe.min.js" integrity="sha384-QELNnmcmU8IR9ZAykt67vGr9/rZJdHbiWi64V88fCPaOohUlHCqUD/unNN0BXSqy" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/photoswipe/4.1.2/photoswipe-ui-default.min.js" integrity="sha384-m67o7SkQ1ALzKZIFh4CiTA8tmadaujiTa9Vu+nqPSwDOqHrDmxLezTdFln8077+q" crossorigin="anonymous"></script><script src="http://localhost:1313/js/load-photoswipe.js"></script>
+
+
+
+
+
+
+
+
+
+
+    
+  </body>
+</html>
+

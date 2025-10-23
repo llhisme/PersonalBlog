@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Môi Trường on LLHISME'S Blog</title><link>https://llhisme.github.io/tags/m%C3%B4i-tr%C6%B0%E1%BB%9Dng/</link><description>Recent content in Môi Trường on LLHISME'S Blog</description><generator>Hugo</generator><language>vi</language><managingEditor>lamlyhao453@gmail.com (Lâm Lý Hào)</managingEditor><webMaster>lamlyhao453@gmail.com (Lâm Lý Hào)</webMaster><lastBuildDate>Sat, 20 Jan 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://llhisme.github.io/tags/m%C3%B4i-tr%C6%B0%E1%BB%9Dng/index.xml" rel="self" type="application/rss+xml"/><item><title>Java Cơ Bản #1: Giới Thiệu Về Java và Cài Đặt Môi Trường</title><link>https://llhisme.github.io/post/java/java-co-ban-1/</link><pubDate>Sat, 20 Jan 2024 00:00:00 +0000</pubDate><author>lamlyhao453@gmail.com (Lâm Lý Hào)</author><guid>https://llhisme.github.io/post/java/java-co-ban-1/</guid><description>&lt;h2 id="java-là-gì"&gt;Java là gì?&lt;/h2&gt;
+&lt;p&gt;Java là một ngôn ngữ lập trình hướng đối tượng được phát triển bởi Sun Microsystems (hiện thuộc Oracle) vào năm 1995. Java nổi tiếng với slogan &lt;strong&gt;&amp;ldquo;Write Once, Run Anywhere&amp;rdquo;&lt;/strong&gt; (Viết một lần, chạy mọi nơi).&lt;/p&gt;
+&lt;h3 id="tại-sao-nên-học-java"&gt;Tại sao nên học Java?&lt;/h3&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;strong&gt;Phổ biến&lt;/strong&gt;: Java là một trong những ngôn ngữ được sử dụng nhiều nhất thế giới&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Đa nền tảng&lt;/strong&gt;: Code Java có thể chạy trên Windows, Mac, Linux&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Cộng đồng lớn&lt;/strong&gt;: Có rất nhiều tài liệu và hỗ trợ từ cộng đồng&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Cơ hội việc làm&lt;/strong&gt;: Nhiều công ty tuyển dụng lập trình viên Java&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2 id="cài-đặt-môi-trường-java"&gt;Cài đặt môi trường Java&lt;/h2&gt;
+&lt;h3 id="bước-1-tải-và-cài-đặt-jdk"&gt;Bước 1: Tải và cài đặt JDK&lt;/h3&gt;
+&lt;p&gt;&lt;strong&gt;JDK&lt;/strong&gt; (Java Development Kit) là bộ công cụ phát triển Java.&lt;/p&gt;</description></item></channel></rss>
