@@ -1,0 +1,21 @@
+/* Ghi đè để tắt chế độ tự động chuyển sang Tối (Dark Mode) */
+@media (prefers-color-scheme: dark) {
+  body {
+    background-color: #fff !important;
+    color: #333 !important;
+    filter: invert(0) !important;
+  }
+
+  img, 
+  pre,
+  code,
+  .highlight,
+  .navbar,
+  .img-logo {
+    filter: invert(0) !important;
+  }
+
+  .navbar {
+    background-color: #222 !important;
+  }
+}

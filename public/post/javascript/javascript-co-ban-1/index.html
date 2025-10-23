@@ -1,0 +1,717 @@
+
+
+<!DOCTYPE html>
+<html lang="vi" itemscope itemtype="http://schema.org/WebPage">
+  <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+    
+
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+
+ 
+
+
+      <title>JavaScript Cơ Bản #1: Giới Thiệu và Thiết Lập Môi Trường - </title>
+
+  <meta name="description" content="Tìm hiểu JavaScript là gì và cách thiết lập môi trường để bắt đầu học JavaScript">
+  <meta name="author" content="Lâm Lý Hào"/><script type="application/ld+json">
+{
+    "@context": "http://schema.org",
+    "@type": "WebSite",
+    "name": "LLHISME\u0027S Blog",
+    
+    "url": "http:\/\/localhost:1313\/"
+}
+</script><script type="application/ld+json">
+{
+  "@context": "http://schema.org",
+  "@type": "Organization",
+  "name": "",
+  "url": "http:\/\/localhost:1313\/"
+  
+  
+  
+  
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "http://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{
+        "@type": "ListItem",
+        "position": 1,
+        "item": {
+          "@id": "http:\/\/localhost:1313\/",
+          "name": "home"
+        }
+    },{
+        "@type": "ListItem",
+        "position": 3,
+        "item": {
+          "@id": "http:\/\/localhost:1313\/post\/javascript\/javascript-co-ban-1\/",
+          "name": "Java script cơ bản #1 giới thiệu và thiết lập môi trường"
+        }
+    }]
+}
+</script><script type="application/ld+json">
+{
+  "@context": "http://schema.org",
+  "@type": "Article",
+  "author": {
+    "name" : "Lâm Lý Hào"
+  },
+  "headline": "JavaScript Cơ Bản #1: Giới Thiệu và Thiết Lập Môi Trường",
+  "description" : "Tìm hiểu JavaScript là gì và cách thiết lập môi trường để bắt đầu học JavaScript",
+  "inLanguage" : "vi",
+  "wordCount":  227 ,
+  "datePublished" : "2024-01-30T00:00:00\u002b00:00",
+  "dateModified" : "2024-01-30T00:00:00\u002b00:00",
+  "image" : "http:\/\/localhost:1313\/img\/icon.jpg",
+  "keywords" : [ "javascript, cơ bản, giới thiệu, thiết lập, JavaScript Cơ Bản" ],
+  "mainEntityOfPage" : "http:\/\/localhost:1313\/post\/javascript\/javascript-co-ban-1\/",
+  "publisher" : {
+    "@type": "Organization",
+    "name" : "http:\/\/localhost:1313\/",
+    "logo" : {
+        "@type" : "ImageObject",
+        "url" : "http:\/\/localhost:1313\/img\/icon.jpg",
+        "height" :  60 ,
+        "width" :  60
+    }
+  }
+}
+</script>
+
+
+<meta property="og:title" content="JavaScript Cơ Bản #1: Giới Thiệu và Thiết Lập Môi Trường" />
+<meta property="og:description" content="Tìm hiểu JavaScript là gì và cách thiết lập môi trường để bắt đầu học JavaScript">
+<meta property="og:image" content="http://localhost:1313/img/icon.jpg" />
+<meta property="og:url" content="http://localhost:1313/post/javascript/javascript-co-ban-1/" />
+<meta property="og:type" content="website" />
+<meta property="og:site_name" content="LLHISME&#39;S Blog" />
+
+  <meta name="twitter:title" content="JavaScript Cơ Bản #1: Giới Thiệu và Thiết Lập Môi Trường" />
+  <meta name="twitter:description" content="Tìm hiểu JavaScript là gì và cách thiết lập môi trường để bắt đầu học JavaScript">
+  <meta name="twitter:image" content="http://localhost:1313/img/icon.jpg" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <link href='http://localhost:1313/img/favicon.ico' rel='icon' type='image/x-icon'/>
+  <meta name="generator" content="Hugo 0.150.1">
+  <link rel="alternate" href="http://localhost:1313/index.xml" type="application/rss+xml" title="LLHISME&#39;S Blog"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.7/dist/katex.min.css" integrity="sha384-3UiQGuEI4TTMaFmGIZumfRPtfKQ3trwQE2JgosJxCnGmQpL/lJdjpcHkaaFwHlcI" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v6.6.0/css/all.css" integrity="sha384-h/hnnw1Bi4nbpD6kE7nYfCXzovi622sY5WBxww8ARKwpdLj5kUWjRuyiXaD1U2JT" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@3.4.1/dist/css/bootstrap.min.css" integrity="sha384-HSMxcRTRxnN+Bdg0JdbxYKrThecOKuH5zCYotlSAcp1+c8xmyTe9GYg1l9a69psu" crossorigin="anonymous"><link rel="stylesheet" href="http://localhost:1313/css/main.css" /><link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic" />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800" />
+  <link rel="stylesheet" href="http://localhost:1313/css/highlight.min.css" /><link rel="stylesheet" href="http://localhost:1313/css/codeblock.css" /><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/photoswipe/4.1.2/photoswipe.min.css" integrity="sha384-h/L2W9KefUClHWaty3SLE5F/qvc4djlyR4qY3NUV5HGQBBW7stbcfff1+I/vmsHh" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/photoswipe/4.1.2/default-skin/default-skin.min.css" integrity="sha384-iD0dNku6PYSIQLyfTOpB06F2KCZJAKLOThS5HRe8b3ibhdEQ6eKsFf/EeFxdOt5R" crossorigin="anonymous">
+
+
+<style>
+   
+  @media (prefers-color-scheme: dark) {
+    body {
+      filter: none !important;
+    }
+    img, .highlight, .navbar, .img-logo, pre, code {
+      filter: none !important;
+    }
+  }
+
+   
+   
+  body.user-dark-mode {
+    background-color: #2b2b2b;  
+    filter: invert(1);
+  }
+  
+   
+  body.user-dark-mode img,
+  body.user-dark-mode .highlight,
+  body.user-dark-mode .navbar,
+  body.user-dark-mode .img-logo,
+  body.user-dark-mode pre,
+  body.user-dark-mode code,
+  body.user-dark-mode #theme-toggle-button {  
+    filter: invert(1);
+  }
+
+   
+  body.user-dark-mode .navbar {
+    background-color: #f5f5f5;  
+  }
+  body.user-dark-mode a {
+    color: #428bca;  
+  }
+
+   
+  #theme-toggle-button {
+    position: fixed;
+    bottom: 15px;
+    right: 15px;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background: #fff;
+    color: #333;
+    border: 1px solid #ddd;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+    font-size: 24px;
+    cursor: pointer;
+    z-index: 999;
+     
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: background 0.3s, color 0.3s;
+  }
+</style>
+
+<script>
+  
+  document.addEventListener('DOMContentLoaded', function() {
+    
+    var body = document.body;
+    var storageKey = 'theme-preference';
+    
+    
+    var button = document.createElement('button');
+    button.id = 'theme-toggle-button';
+    
+    document.body.appendChild(button);
+
+    
+    function applyTheme(theme) {
+      if (theme === 'dark') {
+        body.classList.add('user-dark-mode');
+        button.innerHTML = '☀️'; 
+        localStorage.setItem(storageKey, 'dark');
+      } else {
+        body.classList.remove('user-dark-mode');
+        button.innerHTML = '🌙'; 
+        localStorage.setItem(storageKey, 'light');
+      }
+    }
+
+    
+    var savedTheme = localStorage.getItem(storageKey) || 'light';
+    
+    
+    applyTheme(savedTheme);
+
+    
+    button.addEventListener('click', function() {
+      
+      var currentTheme = body.classList.contains('user-dark-mode') ? 'dark' : 'light';
+      
+      var newTheme = currentTheme === 'dark' ? 'light' : 'dark';
+      applyTheme(newTheme);
+    });
+
+  });
+</script>
+  </head>
+  <body>
+    <nav class="navbar navbar-default navbar-fixed-top navbar-custom">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#main-navbar">
+        <span class="sr-only">Chuyển đổi điều hướng</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="http://localhost:1313/">LLHISME&#39;S Blog</a>
+    </div>
+
+    <div class="collapse navbar-collapse" id="main-navbar">
+      <ul class="nav navbar-nav navbar-right">
+        
+          
+            <li>
+              <a title="Trang chủ" href="/">Trang chủ</a>
+            </li>
+          
+        
+          
+            <li class="navlinks-container">
+              <a class="navlinks-parent" role="button" tabindex="0">Bài viết</a>
+              <div class="navlinks-children">
+                
+                  <a href="/tags/java">Lập trình Java</a>
+                
+                  <a href="/tags/javascript">Lập trình JavaScript</a>
+                
+              </div>
+            </li>
+          
+        
+          
+            <li>
+              <a title="Thẻ" href="/tags">Thẻ</a>
+            </li>
+          
+        
+          
+            <li>
+              <a title="Về tôi" href="/page/about/">Về tôi</a>
+            </li>
+          
+        
+
+        
+
+        
+      </ul>
+    </div>
+
+    
+      <div class="avatar-container">
+        <div class="avatar-img-border">
+          <a title="LLHISME&#39;S Blog" href="http://localhost:1313/">
+            <img class="avatar-img" src="http://localhost:1313/img/icon.jpg" alt="LLHISME&#39;S Blog" />
+           
+          </a>
+        </div>
+      </div>
+    
+
+  </div>
+</nav>
+
+
+
+
+    
+
+
+<div class="pswp" tabindex="-1" role="dialog" aria-hidden="true">
+
+<div class="pswp__bg"></div>
+
+<div class="pswp__scroll-wrap">
+    
+    <div class="pswp__container">
+      <div class="pswp__item"></div>
+      <div class="pswp__item"></div>
+      <div class="pswp__item"></div>
+    </div>
+    
+    <div class="pswp__ui pswp__ui--hidden">
+    <div class="pswp__top-bar">
+      
+      <div class="pswp__counter"></div>
+      <button class="pswp__button pswp__button--close" title="Close (Esc)"></button>
+      <button class="pswp__button pswp__button--share" title="Share"></button>
+      <button class="pswp__button pswp__button--fs" title="Toggle fullscreen"></button>
+      <button class="pswp__button pswp__button--zoom" title="Zoom in/out"></button>
+      
+      
+      <div class="pswp__preloader">
+        <div class="pswp__preloader__icn">
+          <div class="pswp__preloader__cut">
+            <div class="pswp__preloader__donut"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap">
+      <div class="pswp__share-tooltip"></div>
+    </div>
+    <button class="pswp__button pswp__button--arrow--left" title="Previous (arrow left)">
+    </button>
+    <button class="pswp__button pswp__button--arrow--right" title="Next (arrow right)">
+    </button>
+    <div class="pswp__caption">
+      <div class="pswp__caption__center"></div>
+    </div>
+    </div>
+    </div>
+</div>
+
+
+  
+  
+  
+
+
+
+
+
+
+  
+    <div id="header-big-imgs" data-num-img=1
+      
+         
+          data-img-src-1="/img/hexagon.jpg"
+         
+         data-img-desc-1="Hexagon"
+      ></div>
+  
+
+  <header class="header-section has-img">
+    
+      
+      <div class="intro-header big-img" style="background-image: url('/img/hexagon.jpg');">
+        
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+              <div class="post-heading">
+                <h1>JavaScript Cơ Bản #1: Giới Thiệu và Thiết Lập Môi Trường</h1>
+                  
+                    
+                      <h2 class="post-subheading">Tìm hiểu JavaScript là gì và cách thiết lập môi trường để bắt đầu học JavaScript</h2>
+                    
+                  
+                  
+                    <span class="post-meta">
+  
+  
+  <i class="fas fa-calendar"></i>&nbsp;Đăng vào 30 Tháng 1, 2024
+  
+  
+  
+  
+    
+      &nbsp;|&nbsp;<i class="fas fa-user"></i>&nbsp;Lâm Lý Hào
+    
+  
+  
+</span>
+
+
+                  
+              </div>
+            </div>
+          </div>
+        </div>
+        <span class="img-desc" style="display: inline;">Hexagon</span>
+      </div>
+    
+    
+    <div class="intro-header no-img">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+            <div class="post-heading">
+              
+                <h1>JavaScript Cơ Bản #1: Giới Thiệu và Thiết Lập Môi Trường</h1>
+              
+              
+              
+                
+                  <h2 class="post-subheading">Tìm hiểu JavaScript là gì và cách thiết lập môi trường để bắt đầu học JavaScript</h2>
+                
+              
+              
+                <span class="post-meta">
+  
+  
+  <i class="fas fa-calendar"></i>&nbsp;Đăng vào 30 Tháng 1, 2024
+  
+  
+  
+  
+    
+      &nbsp;|&nbsp;<i class="fas fa-user"></i>&nbsp;Lâm Lý Hào
+    
+  
+  
+</span>
+
+
+              
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  
+  </header>
+
+
+    
+<div class="container" role="main">
+  <div class="row">
+    <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+      <article role="main" class="blog-post">
+        <h2 id="javascript-là-gì">JavaScript là gì?</h2>
+<p><strong>JavaScript</strong> (viết tắt là JS) là ngôn ngữ lập trình được sử dụng chủ yếu để tạo ra các trang web tương tác. Ban đầu JavaScript chỉ chạy trên trình duyệt web, nhưng hiện nay nó có thể chạy ở nhiều môi trường khác nhau.</p>
+<h3 id="tại-sao-nên-học-javascript">Tại sao nên học JavaScript?</h3>
+<ol>
+<li><strong>Ngôn ngữ của web</strong>: JavaScript là ngôn ngữ duy nhất chạy trực tiếp trên trình duyệt</li>
+<li><strong>Dễ học</strong>: Cú pháp đơn giản, thân thiện với người mới</li>
+<li><strong>Đa năng</strong>: Có thể làm frontend, backend, mobile app, desktop app</li>
+<li><strong>Cộng đồng lớn</strong>: Rất nhiều tài liệu, thư viện và framework</li>
+<li><strong>Cơ hội việc làm</strong>: Nhu cầu tuyển dụng JavaScript developer rất cao</li>
+</ol>
+<h2 id="thiết-lập-môi-trường-học-javascript">Thiết lập môi trường học JavaScript</h2>
+<h3 id="1-trình-duyệt-web-cách-đơn-giản-nhất">1. Trình duyệt web (Cách đơn giản nhất)</h3>
+<p>Mọi trình duyệt hiện đại đều có JavaScript engine tích hợp:</p>
+<p><strong>Chrome/Edge/Firefox:</strong></p>
+<ol>
+<li>Mở trình duyệt</li>
+<li>Nhấn <code>F12</code> hoặc chuột phải → &ldquo;Inspect&rdquo; → &ldquo;Console&rdquo;</li>
+<li>Bạn có thể viết JavaScript trực tiếp trong Console</li>
+</ol>
+<h3 id="2-visual-studio-code-khuyến-nghị">2. Visual Studio Code (Khuyến nghị)</h3>
+<p><strong>Cài đặt VS Code:</strong></p>
+<ol>
+<li>Truy cập: <a href="https://code.visualstudio.com/">https://code.visualstudio.com/</a></li>
+<li>Tải và cài đặt phiên bản phù hợp với hệ điều hành</li>
+<li>Cài đặt các extension hữu ích:
+<ul>
+<li><strong>Live Server</strong>: Chạy web server local</li>
+<li><strong>JavaScript (ES6) code snippets</strong>: Gợi ý code</li>
+</ul>
+</li>
+</ol>
+<h3 id="3-nodejs-cho-backend">3. Node.js (Cho backend)</h3>
+<p><strong>Cài đặt Node.js:</strong></p>
+<ol>
+<li>Truy cập: <a href="https://nodejs.org/">https://nodejs.org/</a></li>
+<li>Tải phiên bản LTS (Long Term Support)</li>
+<li>Cài đặt theo hướng dẫn</li>
+</ol>
+
+
+        
+          <div class="blog-tags">
+            
+              
+              <a href="http://localhost:1313/tags/javascript/">javascript</a>&nbsp;
+            
+              
+              <a href="http://localhost:1313/tags/c%C6%A1-b%E1%BA%A3n/">cơ bản</a>&nbsp;
+            
+              
+              <a href="http://localhost:1313/tags/gi%E1%BB%9Bi-thi%E1%BB%87u/">giới thiệu</a>&nbsp;
+            
+              
+              <a href="http://localhost:1313/tags/thi%E1%BA%BFt-l%E1%BA%ADp/">thiết lập</a>&nbsp;
+            
+              
+              <a href="http://localhost:1313/tags/javascript-c%C6%A1-b%E1%BA%A3n/">JavaScript Cơ Bản</a>&nbsp;
+            
+          </div>
+        
+
+        
+            <hr/>
+            <section id="social-share">
+              <div class="list-inline footer-links">
+                
+
+<div class="share-box" aria-hidden="true">
+    <ul class="share">
+      
+      <li>
+        <a href="//twitter.com/share?url=http%3a%2f%2flocalhost%3a1313%2fpost%2fjavascript%2fjavascript-co-ban-1%2f&amp;text=JavaScript%20C%c6%a1%20B%e1%ba%a3n%20%231%3a%20Gi%e1%bb%9bi%20Thi%e1%bb%87u%20v%c3%a0%20Thi%e1%ba%bft%20L%e1%ba%adp%20M%c3%b4i%20Tr%c6%b0%e1%bb%9dng&amp;via=" target="_blank" title="Share on Twitter">
+          <i class="fab fa-twitter"></i>
+        </a>
+      </li>
+  
+      
+      <li>
+        <a href="//www.facebook.com/sharer/sharer.php?u=http%3a%2f%2flocalhost%3a1313%2fpost%2fjavascript%2fjavascript-co-ban-1%2f" target="_blank" title="Share on Facebook">
+          <i class="fab fa-facebook"></i>
+        </a>
+      </li>
+  
+      
+      <li>
+        <a href="//reddit.com/submit?url=http%3a%2f%2flocalhost%3a1313%2fpost%2fjavascript%2fjavascript-co-ban-1%2f&amp;title=JavaScript%20C%c6%a1%20B%e1%ba%a3n%20%231%3a%20Gi%e1%bb%9bi%20Thi%e1%bb%87u%20v%c3%a0%20Thi%e1%ba%bft%20L%e1%ba%adp%20M%c3%b4i%20Tr%c6%b0%e1%bb%9dng" target="_blank" title="Share on Reddit">
+          <i class="fab fa-reddit"></i>
+        </a>
+      </li>
+  
+      
+      <li>
+        <a href="//www.linkedin.com/shareArticle?url=http%3a%2f%2flocalhost%3a1313%2fpost%2fjavascript%2fjavascript-co-ban-1%2f&amp;title=JavaScript%20C%c6%a1%20B%e1%ba%a3n%20%231%3a%20Gi%e1%bb%9bi%20Thi%e1%bb%87u%20v%c3%a0%20Thi%e1%ba%bft%20L%e1%ba%adp%20M%c3%b4i%20Tr%c6%b0%e1%bb%9dng" target="_blank" title="Share on LinkedIn">
+          <i class="fab fa-linkedin"></i>
+        </a>
+      </li>
+  
+      
+      <li>
+        <a href="//www.stumbleupon.com/submit?url=http%3a%2f%2flocalhost%3a1313%2fpost%2fjavascript%2fjavascript-co-ban-1%2f&amp;title=JavaScript%20C%c6%a1%20B%e1%ba%a3n%20%231%3a%20Gi%e1%bb%9bi%20Thi%e1%bb%87u%20v%c3%a0%20Thi%e1%ba%bft%20L%e1%ba%adp%20M%c3%b4i%20Tr%c6%b0%e1%bb%9dng" target="_blank" title="Share on StumbleUpon">
+          <i class="fab fa-stumbleupon"></i>
+        </a>
+      </li>
+  
+      
+      <li>
+        <a href="//www.pinterest.com/pin/create/button/?url=http%3a%2f%2flocalhost%3a1313%2fpost%2fjavascript%2fjavascript-co-ban-1%2f&amp;description=JavaScript%20C%c6%a1%20B%e1%ba%a3n%20%231%3a%20Gi%e1%bb%9bi%20Thi%e1%bb%87u%20v%c3%a0%20Thi%e1%ba%bft%20L%e1%ba%adp%20M%c3%b4i%20Tr%c6%b0%e1%bb%9dng" target="_blank" title="Share on Pinterest">
+          <i class="fab fa-pinterest"></i>
+        </a>
+      </li>
+    </ul>
+  </div>
+  
+
+              </div>
+            </section>
+        
+
+        
+          
+            
+          
+
+          
+                  <h4 class="see-also">Xem thêm</h4>
+                  <ul>
+                
+                
+                    <li><a href="/post/javascript/javascript-co-ban-4/">JavaScript Cơ Bản #4: DOM và Events</a></li>
+                
+                    <li><a href="/post/javascript/javascript-co-ban-3/">JavaScript Cơ Bản #3: Hàm (Functions) và Scope</a></li>
+                
+                    <li><a href="/post/javascript/javascript-co-ban-2/">JavaScript Cơ Bản #2: Biến, Kiểu Dữ Liệu và Toán Tử</a></li>
+                
+                    <li><a href="/post/java/java-co-ban-5/">Java Cơ Bản #5: Vòng Lặp - For, While và Do-While</a></li>
+                
+                    <li><a href="/post/java/java-co-ban-4/">Java Cơ Bản #4: Cấu Trúc Điều Khiển - If/Else và Switch</a></li>
+                
+              </ul>
+
+          
+        
+      </article>
+
+      
+        <ul class="pager blog-pager">
+          
+            <li class="previous">
+              <a href="http://localhost:1313/post/java/java-co-ban-5/" data-toggle="tooltip" data-placement="top" title="Java Cơ Bản #5: Vòng Lặp - For, While và Do-While">&larr; Bài trước</a>
+            </li>
+          
+          
+            <li class="next">
+              <a href="http://localhost:1313/post/javascript/javascript-co-ban-2/" data-toggle="tooltip" data-placement="top" title="JavaScript Cơ Bản #2: Biến, Kiểu Dữ Liệu và Toán Tử">Bài tiếp theo &rarr;</a>
+            </li>
+          
+        </ul>
+      
+
+
+      
+      
+      
+      
+      
+        
+      
+
+    </div>
+  </div>
+</div>
+
+      <footer>
+  <div class="container">
+    
+    <div class="row">
+      <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+        <ul class="list-inline text-center footer-links">
+          
+              <li>
+		
+		  <a href="mailto:lamlyhao453@gmail.com" title="Email me">
+		
+                  <span class="fa-stack fa-lg">
+                    <i class="fas fa-circle fa-stack-2x"></i>
+                    <i class="fas fa-envelope fa-stack-1x fa-inverse"></i>
+                  </span>
+                </a>
+              </li>
+              <li>
+		
+		  <a href="https://www.facebook.com/ly.hao.268139" title="Facebook">
+		
+                  <span class="fa-stack fa-lg">
+                    <i class="fas fa-circle fa-stack-2x"></i>
+                    <i class="fab fa-facebook fa-stack-1x fa-inverse"></i>
+                  </span>
+                </a>
+              </li>
+              <li>
+		
+		  <a href="https://github.com/llhisme" title="GitHub">
+		
+                  <span class="fa-stack fa-lg">
+                    <i class="fas fa-circle fa-stack-2x"></i>
+                    <i class="fab fa-github fa-stack-1x fa-inverse"></i>
+                  </span>
+                </a>
+              </li>
+              <li>
+		
+		  <a href="https://www.instagram.com/oahyl1704" title="Instagram">
+		
+                  <span class="fa-stack fa-lg">
+                    <i class="fas fa-circle fa-stack-2x"></i>
+                    <i class="fab fa-instagram fa-stack-1x fa-inverse"></i>
+                  </span>
+                </a>
+              </li>
+              <li>
+		
+		  <a href="https://www.youtube.com/@lyhao1704" title="Youtube">
+		
+                  <span class="fa-stack fa-lg">
+                    <i class="fas fa-circle fa-stack-2x"></i>
+                    <i class="fab fa-youtube fa-stack-1x fa-inverse"></i>
+                  </span>
+                </a>
+              </li>
+          
+        </ul>
+        <p class="credits copyright text-muted">
+          
+            
+              <a href="yourwebsite.com">Lâm Lý Hào</a>
+            
+          
+
+          &nbsp;&bull;&nbsp;&copy;
+          
+            2024
+          
+
+          
+            &nbsp;&bull;&nbsp;
+            <a href="http://localhost:1313/">LLHISME&#39;S Blog</a>
+          
+        </p>
+        
+        <p class="credits theme-by text-muted">
+          <a href="https://gohugo.io">Hugo v0.150.1</a> vận hành &nbsp;&bull;&nbsp; Giao diện <a href="https://github.com/halogenica/beautifulhugo">Beautiful Hugo</a> được điều chỉnh từ <a href="https://deanattali.com/beautiful-jekyll/">Beautiful Jekyll</a>
+          
+        </p>
+      </div>
+    </div>
+  </div>
+</footer><script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.7/dist/katex.min.js" integrity="sha384-G0zcxDFp5LWZtDuRMnBkk3EphCK1lhEf4UEyEM693ka574TZGwo4IWwS6QLzM/2t" crossorigin="anonymous"></script>
+<script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.7/dist/contrib/auto-render.min.js" integrity="sha384-+VBxd3r6XgURycqtZ117nYw44OOcIax56Z4dCRWbxyPt0Koah1uHoK0o4+/RRE05" crossorigin="anonymous" onload="renderMathInElement(document.body);"></script>
+<script src="https://code.jquery.com/jquery-3.7.0.slim.min.js" integrity="sha384-w5y/xIeYixWvfM+A1cEbmHPURnvyqmVg5eVENruEdDjcyRLUSNej7512JQGspFUr" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@3.4.1/dist/js/bootstrap.min.js" integrity="sha384-aJ21OjlMXNL5UyIl/XNwTMqvzeRMZH2w8c5cRVpzpU8Y5bApTppSuUkhZXN0VxHd" crossorigin="anonymous"></script>
+
+<script src="http://localhost:1313/js/main.js"></script>
+<script src="http://localhost:1313/js/highlight.min.js"></script>
+<script> hljs.initHighlightingOnLoad(); </script>
+<script> $(document).ready(function() {$("pre.chroma").css("padding","0");}); </script><script src="https://cdnjs.cloudflare.com/ajax/libs/photoswipe/4.1.2/photoswipe.min.js" integrity="sha384-QELNnmcmU8IR9ZAykt67vGr9/rZJdHbiWi64V88fCPaOohUlHCqUD/unNN0BXSqy" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/photoswipe/4.1.2/photoswipe-ui-default.min.js" integrity="sha384-m67o7SkQ1ALzKZIFh4CiTA8tmadaujiTa9Vu+nqPSwDOqHrDmxLezTdFln8077+q" crossorigin="anonymous"></script><script src="http://localhost:1313/js/load-photoswipe.js"></script>
+
+
+
+
+
+
+
+
+
+
+    
+  </body>
+</html>
+

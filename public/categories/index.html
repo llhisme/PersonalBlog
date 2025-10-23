@@ -14,7 +14,7 @@
 
       <title>Overview of all pages with the category #Categories - </title>
 
-  <meta name="description" content="Overview of all pages with the category #Categories, such as: %!s(&lt;nil&gt;)">
+  <meta name="description" content="Overview of all pages with the category #Categories, such as: JavaScript">
   <meta name="author" content="Lâm Lý Hào"/><script type="application/ld+json">
 {
     "@context": "http://schema.org",
@@ -37,13 +37,13 @@
 </script>
 
 <meta property="og:title" content="Categories" />
-<meta property="og:image" content="http://localhost:1313/img/avatar-icon.png" />
+<meta property="og:image" content="http://localhost:1313/img/icon.jpg" />
 <meta property="og:url" content="http://localhost:1313/categories/" />
 <meta property="og:type" content="website" />
 <meta property="og:site_name" content="LLHISME&#39;S Blog" />
 
   <meta name="twitter:title" content="Categories" />
-  <meta name="twitter:image" content="http://localhost:1313/img/avatar-icon.png" />
+  <meta name="twitter:image" content="http://localhost:1313/img/icon.jpg" />
   <meta name="twitter:card" content="summary_large_image" />
   <link href='http://localhost:1313/img/favicon.ico' rel='icon' type='image/x-icon'/>
   <meta name="generator" content="Hugo 0.150.1">
@@ -55,6 +55,109 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/photoswipe/4.1.2/default-skin/default-skin.min.css" integrity="sha384-iD0dNku6PYSIQLyfTOpB06F2KCZJAKLOThS5HRe8b3ibhdEQ6eKsFf/EeFxdOt5R" crossorigin="anonymous">
 
 
+<style>
+   
+  @media (prefers-color-scheme: dark) {
+    body {
+      filter: none !important;
+    }
+    img, .highlight, .navbar, .img-logo, pre, code {
+      filter: none !important;
+    }
+  }
+
+   
+   
+  body.user-dark-mode {
+    background-color: #2b2b2b;  
+    filter: invert(1);
+  }
+  
+   
+  body.user-dark-mode img,
+  body.user-dark-mode .highlight,
+  body.user-dark-mode .navbar,
+  body.user-dark-mode .img-logo,
+  body.user-dark-mode pre,
+  body.user-dark-mode code,
+  body.user-dark-mode #theme-toggle-button {  
+    filter: invert(1);
+  }
+
+   
+  body.user-dark-mode .navbar {
+    background-color: #f5f5f5;  
+  }
+  body.user-dark-mode a {
+    color: #428bca;  
+  }
+
+   
+  #theme-toggle-button {
+    position: fixed;
+    bottom: 15px;
+    right: 15px;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background: #fff;
+    color: #333;
+    border: 1px solid #ddd;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+    font-size: 24px;
+    cursor: pointer;
+    z-index: 999;
+     
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: background 0.3s, color 0.3s;
+  }
+</style>
+
+<script>
+  
+  document.addEventListener('DOMContentLoaded', function() {
+    
+    var body = document.body;
+    var storageKey = 'theme-preference';
+    
+    
+    var button = document.createElement('button');
+    button.id = 'theme-toggle-button';
+    
+    document.body.appendChild(button);
+
+    
+    function applyTheme(theme) {
+      if (theme === 'dark') {
+        body.classList.add('user-dark-mode');
+        button.innerHTML = '☀️'; 
+        localStorage.setItem(storageKey, 'dark');
+      } else {
+        body.classList.remove('user-dark-mode');
+        button.innerHTML = '🌙'; 
+        localStorage.setItem(storageKey, 'light');
+      }
+    }
+
+    
+    var savedTheme = localStorage.getItem(storageKey) || 'light';
+    
+    
+    applyTheme(savedTheme);
+
+    
+    button.addEventListener('click', function() {
+      
+      var currentTheme = body.classList.contains('user-dark-mode') ? 'dark' : 'light';
+      
+      var newTheme = currentTheme === 'dark' ? 'light' : 'dark';
+      applyTheme(newTheme);
+    });
+
+  });
+</script>
   </head>
   <body>
     <nav class="navbar navbar-default navbar-fixed-top navbar-custom">
@@ -114,7 +217,7 @@
       <div class="avatar-container">
         <div class="avatar-img-border">
           <a title="LLHISME&#39;S Blog" href="http://localhost:1313/">
-            <img class="avatar-img" src="http://localhost:1313/img/avatar-icon.png" alt="LLHISME&#39;S Blog" />
+            <img class="avatar-img" src="http://localhost:1313/img/icon.jpg" alt="LLHISME&#39;S Blog" />
            
           </a>
         </div>
@@ -220,6 +323,66 @@
     <article class="post-preview">
       <div class="panel-group" id="accordion">
         
+          <div class="panel panel-default">
+            <a class="collapsed" role="button" data-toggle="collapse" data-target="#collapsejava" data-parent="#accordion">
+                <div class="panel-heading" id="headerjava">
+                  <h4 class="panel-title">
+                      java
+                    <span class="badge">5</span>
+                  </h4>
+                </div>
+            </a>
+            <div id="collapsejava" class="panel-collapse collapse">
+              <div class="panel-body">
+                
+                <a href="http://localhost:1313/categories/java/" class="list-group-item view-all">
+                View all</a>
+                <div class="list-group">
+                  
+                    <a href="http://localhost:1313/post/java/java-co-ban-5/" class="list-group-item">Java Cơ Bản #5: Vòng Lặp - For, While và Do-While</a>
+                  
+                    <a href="http://localhost:1313/post/java/java-co-ban-4/" class="list-group-item">Java Cơ Bản #4: Cấu Trúc Điều Khiển - If/Else và Switch</a>
+                  
+                    <a href="http://localhost:1313/post/java/java-co-ban-3/" class="list-group-item">Java Cơ Bản #3: Toán Tử và Biểu Thức</a>
+                  
+                    <a href="http://localhost:1313/post/java/java-co-ban-2/" class="list-group-item">Java Cơ Bản #2: Biến và Kiểu Dữ Liệu</a>
+                  
+                    <a href="http://localhost:1313/post/java/java-co-ban-1/" class="list-group-item">Java Cơ Bản #1: Giới Thiệu Về Java và Cài Đặt Môi Trường</a>
+                  
+                </div>
+              </div>
+            </div>
+          </div>
+        
+          <div class="panel panel-default">
+            <a class="collapsed" role="button" data-toggle="collapse" data-target="#collapsejavascript" data-parent="#accordion">
+                <div class="panel-heading" id="headerjavascript">
+                  <h4 class="panel-title">
+                      javascript
+                    <span class="badge">4</span>
+                  </h4>
+                </div>
+            </a>
+            <div id="collapsejavascript" class="panel-collapse collapse">
+              <div class="panel-body">
+                
+                <a href="http://localhost:1313/categories/javascript/" class="list-group-item view-all">
+                View all</a>
+                <div class="list-group">
+                  
+                    <a href="http://localhost:1313/post/javascript/javascript-co-ban-4/" class="list-group-item">JavaScript Cơ Bản #4: DOM và Events</a>
+                  
+                    <a href="http://localhost:1313/post/javascript/javascript-co-ban-3/" class="list-group-item">JavaScript Cơ Bản #3: Hàm (Functions) và Scope</a>
+                  
+                    <a href="http://localhost:1313/post/javascript/javascript-co-ban-2/" class="list-group-item">JavaScript Cơ Bản #2: Biến, Kiểu Dữ Liệu và Toán Tử</a>
+                  
+                    <a href="http://localhost:1313/post/javascript/javascript-co-ban-1/" class="list-group-item">JavaScript Cơ Bản #1: Giới Thiệu và Thiết Lập Môi Trường</a>
+                  
+                </div>
+              </div>
+            </div>
+          </div>
+        
       </div>
     </article>
   </div>
@@ -295,7 +458,7 @@
 
           &nbsp;&bull;&nbsp;&copy;
           
-            0001
+            2024
           
 
           

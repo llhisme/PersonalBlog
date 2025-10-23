@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Thiết Lập on LLHISME&#39;S Blog</title>
+    <link>http://localhost:1313/tags/thi%E1%BA%BFt-l%E1%BA%ADp/</link>
+    <description>Recent content in Thiết Lập on LLHISME&#39;S Blog</description>
+    <generator>Hugo</generator>
+    <language>vi</language>
+    <managingEditor>lamlyhao453@gmail.com (Lâm Lý Hào)</managingEditor>
+    <webMaster>lamlyhao453@gmail.com (Lâm Lý Hào)</webMaster>
+    <lastBuildDate>Tue, 30 Jan 2024 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/thi%E1%BA%BFt-l%E1%BA%ADp/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>JavaScript Cơ Bản #1: Giới Thiệu và Thiết Lập Môi Trường</title>
+      <link>http://localhost:1313/post/javascript/javascript-co-ban-1/</link>
+      <pubDate>Tue, 30 Jan 2024 00:00:00 +0000</pubDate><author>lamlyhao453@gmail.com (Lâm Lý Hào)</author>
+      <guid>http://localhost:1313/post/javascript/javascript-co-ban-1/</guid>
+      <description>&lt;h2 id=&#34;javascript-là-gì&#34;&gt;JavaScript là gì?&lt;/h2&gt;&#xA;&lt;p&gt;&lt;strong&gt;JavaScript&lt;/strong&gt; (viết tắt là JS) là ngôn ngữ lập trình được sử dụng chủ yếu để tạo ra các trang web tương tác. Ban đầu JavaScript chỉ chạy trên trình duyệt web, nhưng hiện nay nó có thể chạy ở nhiều môi trường khác nhau.&lt;/p&gt;&#xA;&lt;h3 id=&#34;tại-sao-nên-học-javascript&#34;&gt;Tại sao nên học JavaScript?&lt;/h3&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;&lt;strong&gt;Ngôn ngữ của web&lt;/strong&gt;: JavaScript là ngôn ngữ duy nhất chạy trực tiếp trên trình duyệt&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Dễ học&lt;/strong&gt;: Cú pháp đơn giản, thân thiện với người mới&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Đa năng&lt;/strong&gt;: Có thể làm frontend, backend, mobile app, desktop app&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Cộng đồng lớn&lt;/strong&gt;: Rất nhiều tài liệu, thư viện và framework&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Cơ hội việc làm&lt;/strong&gt;: Nhu cầu tuyển dụng JavaScript developer rất cao&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;h2 id=&#34;thiết-lập-môi-trường-học-javascript&#34;&gt;Thiết lập môi trường học JavaScript&lt;/h2&gt;&#xA;&lt;h3 id=&#34;1-trình-duyệt-web-cách-đơn-giản-nhất&#34;&gt;1. Trình duyệt web (Cách đơn giản nhất)&lt;/h3&gt;&#xA;&lt;p&gt;Mọi trình duyệt hiện đại đều có JavaScript engine tích hợp:&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

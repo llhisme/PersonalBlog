@@ -4,7 +4,7 @@ subtitle: Tác giả blog, Lập trình viên Java & JavaScript
 comments: false
 ---
 
-<img src="/img/avatar-favicon.png" alt="Ảnh đại diện của Hào" style="display: block; margin-left: auto; margin-right: auto; width: 200px; height: 200px; border-radius: 50%; object-fit: cover; margin-bottom: 20px;">
+<img src="/img/avatar.png" alt="Ảnh đại diện của Hào" style="display: block; margin-left: auto; margin-right: auto; width: 200px; height: 200px; border-radius: 50%; object-fit: cover; margin-bottom: 20px;">
 
 ## Chào bạn, tôi là Lâm Lý Hào!
 

@@ -14,7 +14,7 @@
 
       <title>Overview of all pages with the tag #Tags - </title>
 
-  <meta name="description" content="Overview of all pages with the tag #Tags, such as: %!s(&lt;nil&gt;)">
+  <meta name="description" content="Overview of all pages with the tag #Tags, such as: Cơ Bản">
   <meta name="author" content="Lâm Lý Hào"/><script type="application/ld+json">
 {
     "@context": "http://schema.org",
@@ -37,13 +37,13 @@
 </script>
 
 <meta property="og:title" content="Tags" />
-<meta property="og:image" content="http://localhost:1313/img/avatar-icon.png" />
+<meta property="og:image" content="http://localhost:1313/img/icon.jpg" />
 <meta property="og:url" content="http://localhost:1313/tags/" />
 <meta property="og:type" content="website" />
 <meta property="og:site_name" content="LLHISME&#39;S Blog" />
 
   <meta name="twitter:title" content="Tags" />
-  <meta name="twitter:image" content="http://localhost:1313/img/avatar-icon.png" />
+  <meta name="twitter:image" content="http://localhost:1313/img/icon.jpg" />
   <meta name="twitter:card" content="summary_large_image" />
   <link href='http://localhost:1313/img/favicon.ico' rel='icon' type='image/x-icon'/>
   <meta name="generator" content="Hugo 0.150.1">
@@ -55,6 +55,109 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/photoswipe/4.1.2/default-skin/default-skin.min.css" integrity="sha384-iD0dNku6PYSIQLyfTOpB06F2KCZJAKLOThS5HRe8b3ibhdEQ6eKsFf/EeFxdOt5R" crossorigin="anonymous">
 
 
+<style>
+   
+  @media (prefers-color-scheme: dark) {
+    body {
+      filter: none !important;
+    }
+    img, .highlight, .navbar, .img-logo, pre, code {
+      filter: none !important;
+    }
+  }
+
+   
+   
+  body.user-dark-mode {
+    background-color: #2b2b2b;  
+    filter: invert(1);
+  }
+  
+   
+  body.user-dark-mode img,
+  body.user-dark-mode .highlight,
+  body.user-dark-mode .navbar,
+  body.user-dark-mode .img-logo,
+  body.user-dark-mode pre,
+  body.user-dark-mode code,
+  body.user-dark-mode #theme-toggle-button {  
+    filter: invert(1);
+  }
+
+   
+  body.user-dark-mode .navbar {
+    background-color: #f5f5f5;  
+  }
+  body.user-dark-mode a {
+    color: #428bca;  
+  }
+
+   
+  #theme-toggle-button {
+    position: fixed;
+    bottom: 15px;
+    right: 15px;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background: #fff;
+    color: #333;
+    border: 1px solid #ddd;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+    font-size: 24px;
+    cursor: pointer;
+    z-index: 999;
+     
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: background 0.3s, color 0.3s;
+  }
+</style>
+
+<script>
+  
+  document.addEventListener('DOMContentLoaded', function() {
+    
+    var body = document.body;
+    var storageKey = 'theme-preference';
+    
+    
+    var button = document.createElement('button');
+    button.id = 'theme-toggle-button';
+    
+    document.body.appendChild(button);
+
+    
+    function applyTheme(theme) {
+      if (theme === 'dark') {
+        body.classList.add('user-dark-mode');
+        button.innerHTML = '☀️'; 
+        localStorage.setItem(storageKey, 'dark');
+      } else {
+        body.classList.remove('user-dark-mode');
+        button.innerHTML = '🌙'; 
+        localStorage.setItem(storageKey, 'light');
+      }
+    }
+
+    
+    var savedTheme = localStorage.getItem(storageKey) || 'light';
+    
+    
+    applyTheme(savedTheme);
+
+    
+    button.addEventListener('click', function() {
+      
+      var currentTheme = body.classList.contains('user-dark-mode') ? 'dark' : 'light';
+      
+      var newTheme = currentTheme === 'dark' ? 'light' : 'dark';
+      applyTheme(newTheme);
+    });
+
+  });
+</script>
   </head>
   <body>
     <nav class="navbar navbar-default navbar-fixed-top navbar-custom">
@@ -114,7 +217,7 @@
       <div class="avatar-container">
         <div class="avatar-img-border">
           <a title="LLHISME&#39;S Blog" href="http://localhost:1313/">
-            <img class="avatar-img" src="http://localhost:1313/img/avatar-icon.png" alt="LLHISME&#39;S Blog" />
+            <img class="avatar-img" src="http://localhost:1313/img/icon.jpg" alt="LLHISME&#39;S Blog" />
            
           </a>
         </div>
@@ -220,6 +323,631 @@
     <article class="post-preview">
       <div class="panel-group" id="accordion">
         
+          <div class="panel panel-default">
+            <a class="collapsed" role="button" data-toggle="collapse" data-target="#collapsecơ-bản" data-parent="#accordion">
+                <div class="panel-heading" id="headercơ-bản">
+                  <h4 class="panel-title">
+                      cơ bản
+                    <span class="badge">9</span>
+                  </h4>
+                </div>
+            </a>
+            <div id="collapsecơ-bản" class="panel-collapse collapse">
+              <div class="panel-body">
+                
+                <a href="http://localhost:1313/tags/c%C6%A1-b%E1%BA%A3n/" class="list-group-item view-all">
+                View all</a>
+                <div class="list-group">
+                  
+                    <a href="http://localhost:1313/post/javascript/javascript-co-ban-4/" class="list-group-item">JavaScript Cơ Bản #4: DOM và Events</a>
+                  
+                    <a href="http://localhost:1313/post/javascript/javascript-co-ban-3/" class="list-group-item">JavaScript Cơ Bản #3: Hàm (Functions) và Scope</a>
+                  
+                    <a href="http://localhost:1313/post/javascript/javascript-co-ban-2/" class="list-group-item">JavaScript Cơ Bản #2: Biến, Kiểu Dữ Liệu và Toán Tử</a>
+                  
+                    <a href="http://localhost:1313/post/javascript/javascript-co-ban-1/" class="list-group-item">JavaScript Cơ Bản #1: Giới Thiệu và Thiết Lập Môi Trường</a>
+                  
+                    <a href="http://localhost:1313/post/java/java-co-ban-5/" class="list-group-item">Java Cơ Bản #5: Vòng Lặp - For, While và Do-While</a>
+                  
+                    <a href="http://localhost:1313/post/java/java-co-ban-4/" class="list-group-item">Java Cơ Bản #4: Cấu Trúc Điều Khiển - If/Else và Switch</a>
+                  
+                    <a href="http://localhost:1313/post/java/java-co-ban-3/" class="list-group-item">Java Cơ Bản #3: Toán Tử và Biểu Thức</a>
+                  
+                    <a href="http://localhost:1313/post/java/java-co-ban-2/" class="list-group-item">Java Cơ Bản #2: Biến và Kiểu Dữ Liệu</a>
+                  
+                    <a href="http://localhost:1313/post/java/java-co-ban-1/" class="list-group-item">Java Cơ Bản #1: Giới Thiệu Về Java và Cài Đặt Môi Trường</a>
+                  
+                </div>
+              </div>
+            </div>
+          </div>
+        
+          <div class="panel panel-default">
+            <a class="collapsed" role="button" data-toggle="collapse" data-target="#collapsejava" data-parent="#accordion">
+                <div class="panel-heading" id="headerjava">
+                  <h4 class="panel-title">
+                      java
+                    <span class="badge">5</span>
+                  </h4>
+                </div>
+            </a>
+            <div id="collapsejava" class="panel-collapse collapse">
+              <div class="panel-body">
+                
+                <a href="http://localhost:1313/tags/java/" class="list-group-item view-all">
+                View all</a>
+                <div class="list-group">
+                  
+                    <a href="http://localhost:1313/post/java/java-co-ban-5/" class="list-group-item">Java Cơ Bản #5: Vòng Lặp - For, While và Do-While</a>
+                  
+                    <a href="http://localhost:1313/post/java/java-co-ban-4/" class="list-group-item">Java Cơ Bản #4: Cấu Trúc Điều Khiển - If/Else và Switch</a>
+                  
+                    <a href="http://localhost:1313/post/java/java-co-ban-3/" class="list-group-item">Java Cơ Bản #3: Toán Tử và Biểu Thức</a>
+                  
+                    <a href="http://localhost:1313/post/java/java-co-ban-2/" class="list-group-item">Java Cơ Bản #2: Biến và Kiểu Dữ Liệu</a>
+                  
+                    <a href="http://localhost:1313/post/java/java-co-ban-1/" class="list-group-item">Java Cơ Bản #1: Giới Thiệu Về Java và Cài Đặt Môi Trường</a>
+                  
+                </div>
+              </div>
+            </div>
+          </div>
+        
+          <div class="panel panel-default">
+            <a class="collapsed" role="button" data-toggle="collapse" data-target="#collapsejava-cơ-bản" data-parent="#accordion">
+                <div class="panel-heading" id="headerjava-cơ-bản">
+                  <h4 class="panel-title">
+                      java cơ bản
+                    <span class="badge">5</span>
+                  </h4>
+                </div>
+            </a>
+            <div id="collapsejava-cơ-bản" class="panel-collapse collapse">
+              <div class="panel-body">
+                
+                <a href="http://localhost:1313/tags/java-c%C6%A1-b%E1%BA%A3n/" class="list-group-item view-all">
+                View all</a>
+                <div class="list-group">
+                  
+                    <a href="http://localhost:1313/post/java/java-co-ban-5/" class="list-group-item">Java Cơ Bản #5: Vòng Lặp - For, While và Do-While</a>
+                  
+                    <a href="http://localhost:1313/post/java/java-co-ban-4/" class="list-group-item">Java Cơ Bản #4: Cấu Trúc Điều Khiển - If/Else và Switch</a>
+                  
+                    <a href="http://localhost:1313/post/java/java-co-ban-3/" class="list-group-item">Java Cơ Bản #3: Toán Tử và Biểu Thức</a>
+                  
+                    <a href="http://localhost:1313/post/java/java-co-ban-2/" class="list-group-item">Java Cơ Bản #2: Biến và Kiểu Dữ Liệu</a>
+                  
+                    <a href="http://localhost:1313/post/java/java-co-ban-1/" class="list-group-item">Java Cơ Bản #1: Giới Thiệu Về Java và Cài Đặt Môi Trường</a>
+                  
+                </div>
+              </div>
+            </div>
+          </div>
+        
+          <div class="panel panel-default">
+            <a class="collapsed" role="button" data-toggle="collapse" data-target="#collapsejavascript" data-parent="#accordion">
+                <div class="panel-heading" id="headerjavascript">
+                  <h4 class="panel-title">
+                      javascript
+                    <span class="badge">4</span>
+                  </h4>
+                </div>
+            </a>
+            <div id="collapsejavascript" class="panel-collapse collapse">
+              <div class="panel-body">
+                
+                <a href="http://localhost:1313/tags/javascript/" class="list-group-item view-all">
+                View all</a>
+                <div class="list-group">
+                  
+                    <a href="http://localhost:1313/post/javascript/javascript-co-ban-4/" class="list-group-item">JavaScript Cơ Bản #4: DOM và Events</a>
+                  
+                    <a href="http://localhost:1313/post/javascript/javascript-co-ban-3/" class="list-group-item">JavaScript Cơ Bản #3: Hàm (Functions) và Scope</a>
+                  
+                    <a href="http://localhost:1313/post/javascript/javascript-co-ban-2/" class="list-group-item">JavaScript Cơ Bản #2: Biến, Kiểu Dữ Liệu và Toán Tử</a>
+                  
+                    <a href="http://localhost:1313/post/javascript/javascript-co-ban-1/" class="list-group-item">JavaScript Cơ Bản #1: Giới Thiệu và Thiết Lập Môi Trường</a>
+                  
+                </div>
+              </div>
+            </div>
+          </div>
+        
+          <div class="panel panel-default">
+            <a class="collapsed" role="button" data-toggle="collapse" data-target="#collapsejavascript-cơ-bản" data-parent="#accordion">
+                <div class="panel-heading" id="headerjavascript-cơ-bản">
+                  <h4 class="panel-title">
+                      javascript cơ bản
+                    <span class="badge">4</span>
+                  </h4>
+                </div>
+            </a>
+            <div id="collapsejavascript-cơ-bản" class="panel-collapse collapse">
+              <div class="panel-body">
+                
+                <a href="http://localhost:1313/tags/javascript-c%C6%A1-b%E1%BA%A3n/" class="list-group-item view-all">
+                View all</a>
+                <div class="list-group">
+                  
+                    <a href="http://localhost:1313/post/javascript/javascript-co-ban-4/" class="list-group-item">JavaScript Cơ Bản #4: DOM và Events</a>
+                  
+                    <a href="http://localhost:1313/post/javascript/javascript-co-ban-3/" class="list-group-item">JavaScript Cơ Bản #3: Hàm (Functions) và Scope</a>
+                  
+                    <a href="http://localhost:1313/post/javascript/javascript-co-ban-2/" class="list-group-item">JavaScript Cơ Bản #2: Biến, Kiểu Dữ Liệu và Toán Tử</a>
+                  
+                    <a href="http://localhost:1313/post/javascript/javascript-co-ban-1/" class="list-group-item">JavaScript Cơ Bản #1: Giới Thiệu và Thiết Lập Môi Trường</a>
+                  
+                </div>
+              </div>
+            </div>
+          </div>
+        
+          <div class="panel panel-default">
+            <a class="collapsed" role="button" data-toggle="collapse" data-target="#collapsebiến" data-parent="#accordion">
+                <div class="panel-heading" id="headerbiến">
+                  <h4 class="panel-title">
+                      biến
+                    <span class="badge">2</span>
+                  </h4>
+                </div>
+            </a>
+            <div id="collapsebiến" class="panel-collapse collapse">
+              <div class="panel-body">
+                
+                <a href="http://localhost:1313/tags/bi%E1%BA%BFn/" class="list-group-item view-all">
+                View all</a>
+                <div class="list-group">
+                  
+                    <a href="http://localhost:1313/post/javascript/javascript-co-ban-2/" class="list-group-item">JavaScript Cơ Bản #2: Biến, Kiểu Dữ Liệu và Toán Tử</a>
+                  
+                    <a href="http://localhost:1313/post/java/java-co-ban-2/" class="list-group-item">Java Cơ Bản #2: Biến và Kiểu Dữ Liệu</a>
+                  
+                </div>
+              </div>
+            </div>
+          </div>
+        
+          <div class="panel panel-default">
+            <a class="collapsed" role="button" data-toggle="collapse" data-target="#collapsekiểu-dữ-liệu" data-parent="#accordion">
+                <div class="panel-heading" id="headerkiểu-dữ-liệu">
+                  <h4 class="panel-title">
+                      kiểu dữ liệu
+                    <span class="badge">2</span>
+                  </h4>
+                </div>
+            </a>
+            <div id="collapsekiểu-dữ-liệu" class="panel-collapse collapse">
+              <div class="panel-body">
+                
+                <a href="http://localhost:1313/tags/ki%E1%BB%83u-d%E1%BB%AF-li%E1%BB%87u/" class="list-group-item view-all">
+                View all</a>
+                <div class="list-group">
+                  
+                    <a href="http://localhost:1313/post/javascript/javascript-co-ban-2/" class="list-group-item">JavaScript Cơ Bản #2: Biến, Kiểu Dữ Liệu và Toán Tử</a>
+                  
+                    <a href="http://localhost:1313/post/java/java-co-ban-2/" class="list-group-item">Java Cơ Bản #2: Biến và Kiểu Dữ Liệu</a>
+                  
+                </div>
+              </div>
+            </div>
+          </div>
+        
+          <div class="panel panel-default">
+            <a class="collapsed" role="button" data-toggle="collapse" data-target="#collapsetoán-tử" data-parent="#accordion">
+                <div class="panel-heading" id="headertoán-tử">
+                  <h4 class="panel-title">
+                      toán tử
+                    <span class="badge">2</span>
+                  </h4>
+                </div>
+            </a>
+            <div id="collapsetoán-tử" class="panel-collapse collapse">
+              <div class="panel-body">
+                
+                <a href="http://localhost:1313/tags/to%C3%A1n-t%E1%BB%AD/" class="list-group-item view-all">
+                View all</a>
+                <div class="list-group">
+                  
+                    <a href="http://localhost:1313/post/javascript/javascript-co-ban-2/" class="list-group-item">JavaScript Cơ Bản #2: Biến, Kiểu Dữ Liệu và Toán Tử</a>
+                  
+                    <a href="http://localhost:1313/post/java/java-co-ban-3/" class="list-group-item">Java Cơ Bản #3: Toán Tử và Biểu Thức</a>
+                  
+                </div>
+              </div>
+            </div>
+          </div>
+        
+          <div class="panel panel-default">
+            <a class="collapsed" role="button" data-toggle="collapse" data-target="#collapsebiểu-thức" data-parent="#accordion">
+                <div class="panel-heading" id="headerbiểu-thức">
+                  <h4 class="panel-title">
+                      biểu thức
+                    <span class="badge">1</span>
+                  </h4>
+                </div>
+            </a>
+            <div id="collapsebiểu-thức" class="panel-collapse collapse">
+              <div class="panel-body">
+                
+                <a href="http://localhost:1313/tags/bi%E1%BB%83u-th%E1%BB%A9c/" class="list-group-item view-all">
+                View all</a>
+                <div class="list-group">
+                  
+                    <a href="http://localhost:1313/post/java/java-co-ban-3/" class="list-group-item">Java Cơ Bản #3: Toán Tử và Biểu Thức</a>
+                  
+                </div>
+              </div>
+            </div>
+          </div>
+        
+          <div class="panel panel-default">
+            <a class="collapsed" role="button" data-toggle="collapse" data-target="#collapsecài-đặt" data-parent="#accordion">
+                <div class="panel-heading" id="headercài-đặt">
+                  <h4 class="panel-title">
+                      cài đặt
+                    <span class="badge">1</span>
+                  </h4>
+                </div>
+            </a>
+            <div id="collapsecài-đặt" class="panel-collapse collapse">
+              <div class="panel-body">
+                
+                <a href="http://localhost:1313/tags/c%C3%A0i-%C4%91%E1%BA%B7t/" class="list-group-item view-all">
+                View all</a>
+                <div class="list-group">
+                  
+                    <a href="http://localhost:1313/post/java/java-co-ban-1/" class="list-group-item">Java Cơ Bản #1: Giới Thiệu Về Java và Cài Đặt Môi Trường</a>
+                  
+                </div>
+              </div>
+            </div>
+          </div>
+        
+          <div class="panel panel-default">
+            <a class="collapsed" role="button" data-toggle="collapse" data-target="#collapsedo-while" data-parent="#accordion">
+                <div class="panel-heading" id="headerdo-while">
+                  <h4 class="panel-title">
+                      do-while
+                    <span class="badge">1</span>
+                  </h4>
+                </div>
+            </a>
+            <div id="collapsedo-while" class="panel-collapse collapse">
+              <div class="panel-body">
+                
+                <a href="http://localhost:1313/tags/do-while/" class="list-group-item view-all">
+                View all</a>
+                <div class="list-group">
+                  
+                    <a href="http://localhost:1313/post/java/java-co-ban-5/" class="list-group-item">Java Cơ Bản #5: Vòng Lặp - For, While và Do-While</a>
+                  
+                </div>
+              </div>
+            </div>
+          </div>
+        
+          <div class="panel panel-default">
+            <a class="collapsed" role="button" data-toggle="collapse" data-target="#collapsedom" data-parent="#accordion">
+                <div class="panel-heading" id="headerdom">
+                  <h4 class="panel-title">
+                      dom
+                    <span class="badge">1</span>
+                  </h4>
+                </div>
+            </a>
+            <div id="collapsedom" class="panel-collapse collapse">
+              <div class="panel-body">
+                
+                <a href="http://localhost:1313/tags/dom/" class="list-group-item view-all">
+                View all</a>
+                <div class="list-group">
+                  
+                    <a href="http://localhost:1313/post/javascript/javascript-co-ban-4/" class="list-group-item">JavaScript Cơ Bản #4: DOM và Events</a>
+                  
+                </div>
+              </div>
+            </div>
+          </div>
+        
+          <div class="panel panel-default">
+            <a class="collapsed" role="button" data-toggle="collapse" data-target="#collapseevents" data-parent="#accordion">
+                <div class="panel-heading" id="headerevents">
+                  <h4 class="panel-title">
+                      events
+                    <span class="badge">1</span>
+                  </h4>
+                </div>
+            </a>
+            <div id="collapseevents" class="panel-collapse collapse">
+              <div class="panel-body">
+                
+                <a href="http://localhost:1313/tags/events/" class="list-group-item view-all">
+                View all</a>
+                <div class="list-group">
+                  
+                    <a href="http://localhost:1313/post/javascript/javascript-co-ban-4/" class="list-group-item">JavaScript Cơ Bản #4: DOM và Events</a>
+                  
+                </div>
+              </div>
+            </div>
+          </div>
+        
+          <div class="panel panel-default">
+            <a class="collapsed" role="button" data-toggle="collapse" data-target="#collapsefor" data-parent="#accordion">
+                <div class="panel-heading" id="headerfor">
+                  <h4 class="panel-title">
+                      for
+                    <span class="badge">1</span>
+                  </h4>
+                </div>
+            </a>
+            <div id="collapsefor" class="panel-collapse collapse">
+              <div class="panel-body">
+                
+                <a href="http://localhost:1313/tags/for/" class="list-group-item view-all">
+                View all</a>
+                <div class="list-group">
+                  
+                    <a href="http://localhost:1313/post/java/java-co-ban-5/" class="list-group-item">Java Cơ Bản #5: Vòng Lặp - For, While và Do-While</a>
+                  
+                </div>
+              </div>
+            </div>
+          </div>
+        
+          <div class="panel panel-default">
+            <a class="collapsed" role="button" data-toggle="collapse" data-target="#collapsefunction" data-parent="#accordion">
+                <div class="panel-heading" id="headerfunction">
+                  <h4 class="panel-title">
+                      function
+                    <span class="badge">1</span>
+                  </h4>
+                </div>
+            </a>
+            <div id="collapsefunction" class="panel-collapse collapse">
+              <div class="panel-body">
+                
+                <a href="http://localhost:1313/tags/function/" class="list-group-item view-all">
+                View all</a>
+                <div class="list-group">
+                  
+                    <a href="http://localhost:1313/post/javascript/javascript-co-ban-3/" class="list-group-item">JavaScript Cơ Bản #3: Hàm (Functions) và Scope</a>
+                  
+                </div>
+              </div>
+            </div>
+          </div>
+        
+          <div class="panel panel-default">
+            <a class="collapsed" role="button" data-toggle="collapse" data-target="#collapsegiới-thiệu" data-parent="#accordion">
+                <div class="panel-heading" id="headergiới-thiệu">
+                  <h4 class="panel-title">
+                      giới thiệu
+                    <span class="badge">1</span>
+                  </h4>
+                </div>
+            </a>
+            <div id="collapsegiới-thiệu" class="panel-collapse collapse">
+              <div class="panel-body">
+                
+                <a href="http://localhost:1313/tags/gi%E1%BB%9Bi-thi%E1%BB%87u/" class="list-group-item view-all">
+                View all</a>
+                <div class="list-group">
+                  
+                    <a href="http://localhost:1313/post/javascript/javascript-co-ban-1/" class="list-group-item">JavaScript Cơ Bản #1: Giới Thiệu và Thiết Lập Môi Trường</a>
+                  
+                </div>
+              </div>
+            </div>
+          </div>
+        
+          <div class="panel panel-default">
+            <a class="collapsed" role="button" data-toggle="collapse" data-target="#collapsehàm" data-parent="#accordion">
+                <div class="panel-heading" id="headerhàm">
+                  <h4 class="panel-title">
+                      hàm
+                    <span class="badge">1</span>
+                  </h4>
+                </div>
+            </a>
+            <div id="collapsehàm" class="panel-collapse collapse">
+              <div class="panel-body">
+                
+                <a href="http://localhost:1313/tags/h%C3%A0m/" class="list-group-item view-all">
+                View all</a>
+                <div class="list-group">
+                  
+                    <a href="http://localhost:1313/post/javascript/javascript-co-ban-3/" class="list-group-item">JavaScript Cơ Bản #3: Hàm (Functions) và Scope</a>
+                  
+                </div>
+              </div>
+            </div>
+          </div>
+        
+          <div class="panel panel-default">
+            <a class="collapsed" role="button" data-toggle="collapse" data-target="#collapseif-else" data-parent="#accordion">
+                <div class="panel-heading" id="headerif-else">
+                  <h4 class="panel-title">
+                      if-else
+                    <span class="badge">1</span>
+                  </h4>
+                </div>
+            </a>
+            <div id="collapseif-else" class="panel-collapse collapse">
+              <div class="panel-body">
+                
+                <a href="http://localhost:1313/tags/if-else/" class="list-group-item view-all">
+                View all</a>
+                <div class="list-group">
+                  
+                    <a href="http://localhost:1313/post/java/java-co-ban-4/" class="list-group-item">Java Cơ Bản #4: Cấu Trúc Điều Khiển - If/Else và Switch</a>
+                  
+                </div>
+              </div>
+            </div>
+          </div>
+        
+          <div class="panel panel-default">
+            <a class="collapsed" role="button" data-toggle="collapse" data-target="#collapsemôi-trường" data-parent="#accordion">
+                <div class="panel-heading" id="headermôi-trường">
+                  <h4 class="panel-title">
+                      môi trường
+                    <span class="badge">1</span>
+                  </h4>
+                </div>
+            </a>
+            <div id="collapsemôi-trường" class="panel-collapse collapse">
+              <div class="panel-body">
+                
+                <a href="http://localhost:1313/tags/m%C3%B4i-tr%C6%B0%E1%BB%9Dng/" class="list-group-item view-all">
+                View all</a>
+                <div class="list-group">
+                  
+                    <a href="http://localhost:1313/post/java/java-co-ban-1/" class="list-group-item">Java Cơ Bản #1: Giới Thiệu Về Java và Cài Đặt Môi Trường</a>
+                  
+                </div>
+              </div>
+            </div>
+          </div>
+        
+          <div class="panel panel-default">
+            <a class="collapsed" role="button" data-toggle="collapse" data-target="#collapsescope" data-parent="#accordion">
+                <div class="panel-heading" id="headerscope">
+                  <h4 class="panel-title">
+                      scope
+                    <span class="badge">1</span>
+                  </h4>
+                </div>
+            </a>
+            <div id="collapsescope" class="panel-collapse collapse">
+              <div class="panel-body">
+                
+                <a href="http://localhost:1313/tags/scope/" class="list-group-item view-all">
+                View all</a>
+                <div class="list-group">
+                  
+                    <a href="http://localhost:1313/post/javascript/javascript-co-ban-3/" class="list-group-item">JavaScript Cơ Bản #3: Hàm (Functions) và Scope</a>
+                  
+                </div>
+              </div>
+            </div>
+          </div>
+        
+          <div class="panel panel-default">
+            <a class="collapsed" role="button" data-toggle="collapse" data-target="#collapseswitch" data-parent="#accordion">
+                <div class="panel-heading" id="headerswitch">
+                  <h4 class="panel-title">
+                      switch
+                    <span class="badge">1</span>
+                  </h4>
+                </div>
+            </a>
+            <div id="collapseswitch" class="panel-collapse collapse">
+              <div class="panel-body">
+                
+                <a href="http://localhost:1313/tags/switch/" class="list-group-item view-all">
+                View all</a>
+                <div class="list-group">
+                  
+                    <a href="http://localhost:1313/post/java/java-co-ban-4/" class="list-group-item">Java Cơ Bản #4: Cấu Trúc Điều Khiển - If/Else và Switch</a>
+                  
+                </div>
+              </div>
+            </div>
+          </div>
+        
+          <div class="panel panel-default">
+            <a class="collapsed" role="button" data-toggle="collapse" data-target="#collapsethiết-lập" data-parent="#accordion">
+                <div class="panel-heading" id="headerthiết-lập">
+                  <h4 class="panel-title">
+                      thiết lập
+                    <span class="badge">1</span>
+                  </h4>
+                </div>
+            </a>
+            <div id="collapsethiết-lập" class="panel-collapse collapse">
+              <div class="panel-body">
+                
+                <a href="http://localhost:1313/tags/thi%E1%BA%BFt-l%E1%BA%ADp/" class="list-group-item view-all">
+                View all</a>
+                <div class="list-group">
+                  
+                    <a href="http://localhost:1313/post/javascript/javascript-co-ban-1/" class="list-group-item">JavaScript Cơ Bản #1: Giới Thiệu và Thiết Lập Môi Trường</a>
+                  
+                </div>
+              </div>
+            </div>
+          </div>
+        
+          <div class="panel panel-default">
+            <a class="collapsed" role="button" data-toggle="collapse" data-target="#collapsevòng-lặp" data-parent="#accordion">
+                <div class="panel-heading" id="headervòng-lặp">
+                  <h4 class="panel-title">
+                      vòng lặp
+                    <span class="badge">1</span>
+                  </h4>
+                </div>
+            </a>
+            <div id="collapsevòng-lặp" class="panel-collapse collapse">
+              <div class="panel-body">
+                
+                <a href="http://localhost:1313/tags/v%C3%B2ng-l%E1%BA%B7p/" class="list-group-item view-all">
+                View all</a>
+                <div class="list-group">
+                  
+                    <a href="http://localhost:1313/post/java/java-co-ban-5/" class="list-group-item">Java Cơ Bản #5: Vòng Lặp - For, While và Do-While</a>
+                  
+                </div>
+              </div>
+            </div>
+          </div>
+        
+          <div class="panel panel-default">
+            <a class="collapsed" role="button" data-toggle="collapse" data-target="#collapsewhile" data-parent="#accordion">
+                <div class="panel-heading" id="headerwhile">
+                  <h4 class="panel-title">
+                      while
+                    <span class="badge">1</span>
+                  </h4>
+                </div>
+            </a>
+            <div id="collapsewhile" class="panel-collapse collapse">
+              <div class="panel-body">
+                
+                <a href="http://localhost:1313/tags/while/" class="list-group-item view-all">
+                View all</a>
+                <div class="list-group">
+                  
+                    <a href="http://localhost:1313/post/java/java-co-ban-5/" class="list-group-item">Java Cơ Bản #5: Vòng Lặp - For, While và Do-While</a>
+                  
+                </div>
+              </div>
+            </div>
+          </div>
+        
+          <div class="panel panel-default">
+            <a class="collapsed" role="button" data-toggle="collapse" data-target="#collapseđiều-kiện" data-parent="#accordion">
+                <div class="panel-heading" id="headerđiều-kiện">
+                  <h4 class="panel-title">
+                      điều kiện
+                    <span class="badge">1</span>
+                  </h4>
+                </div>
+            </a>
+            <div id="collapseđiều-kiện" class="panel-collapse collapse">
+              <div class="panel-body">
+                
+                <a href="http://localhost:1313/tags/%C4%91i%E1%BB%81u-ki%E1%BB%87n/" class="list-group-item view-all">
+                View all</a>
+                <div class="list-group">
+                  
+                    <a href="http://localhost:1313/post/java/java-co-ban-4/" class="list-group-item">Java Cơ Bản #4: Cấu Trúc Điều Khiển - If/Else và Switch</a>
+                  
+                </div>
+              </div>
+            </div>
+          </div>
+        
       </div>
     </article>
   </div>
@@ -295,7 +1023,7 @@
 
           &nbsp;&bull;&nbsp;&copy;
           
-            0001
+            2024
           
 
           
