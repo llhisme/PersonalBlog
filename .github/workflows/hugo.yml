@@ -3,7 +3,7 @@ name: Deploy to GitHub Pages
 on:
   push:
     branches:
-      - hao # Chạy workflow khi có push lên nhánh 'main'
+      - main # Chạy workflow khi có push lên nhánh 'main'
 
   # Cho phép chạy workflow này thủ công từ tab Actions trên GitHub
   workflow_dispatch:
