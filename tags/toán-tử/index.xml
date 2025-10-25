@@ -14,6 +14,7 @@
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h2 id="kiểu-dữ-liệu-trong-javascript"&gt;Kiểu dữ liệu trong JavaScript&lt;/h2&gt;
 &lt;p&gt;JavaScript có 2 nhóm kiểu dữ liệu chính:&lt;/p&gt;</description></item><item><title>Java Cơ Bản #3: Toán Tử và Biểu Thức</title><link>https://llhisme.github.io/PersonalBlog/post/java/java-co-ban-3/</link><pubDate>Wed, 24 Jan 2024 00:00:00 +0000</pubDate><author>lamlyhao453@gmail.com (Lâm Lý Hào)</author><guid>https://llhisme.github.io/PersonalBlog/post/java/java-co-ban-3/</guid><description>&lt;h2 id="toán-tử-là-gì"&gt;Toán tử là gì?&lt;/h2&gt;
 &lt;p&gt;&lt;strong&gt;Toán tử&lt;/strong&gt; (Operator) là các ký hiệu đặc biệt được sử dụng để thực hiện các phép toán trên dữ liệu. &lt;strong&gt;Biểu thức&lt;/strong&gt; (Expression) là sự kết hợp của các biến, hằng số và toán tử.&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://llhisme.github.io/PersonalBlog/img/java-operators.png" alt="Các loại toán tử trong Java" title="Sơ đồ các loại toán tử trong Java"&gt;&lt;/p&gt;
 &lt;h2 id="1-toán-tử-số-học-arithmetic-operators"&gt;1. Toán tử số học (Arithmetic Operators)&lt;/h2&gt;
 &lt;table&gt;
  &lt;thead&gt;
