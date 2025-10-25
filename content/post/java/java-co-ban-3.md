@@ -13,6 +13,8 @@ bigimg:
 
 **Toán tử** (Operator) là các ký hiệu đặc biệt được sử dụng để thực hiện các phép toán trên dữ liệu. **Biểu thức** (Expression) là sự kết hợp của các biến, hằng số và toán tử.
 
+![Các loại toán tử trong Java](/PersonalBlog/img/java-operators.png "Sơ đồ các loại toán tử trong Java")
+
 ## 1. Toán tử số học (Arithmetic Operators)
 
 | Toán tử | Ý nghĩa | Ví dụ | Kết quả |

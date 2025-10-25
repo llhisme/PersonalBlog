@@ -50,6 +50,9 @@ IDE giúp bạn viết code dễ dàng hơn. Tôi khuyến nghị:
 2. Tải phiên bản Community (miễn phí)
 3. Cài đặt và khởi động
 
+Dưới đây là hình ảnh giao diện của IntelliJ IDEA:
+![Giao diện IntelliJ IDEA](/PersonalBlog/img/intellij_idea.jpg "Giao diện của IntelliJ IDEA")
+
 #### Eclipse (Miễn phí)
 1. Truy cập: https://www.eclipse.org/downloads/
 2. Tải Eclipse IDE for Java Developers

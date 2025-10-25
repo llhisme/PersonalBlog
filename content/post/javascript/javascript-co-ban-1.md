@@ -11,6 +11,8 @@ bigimg:
 
 ## JavaScript là gì?
 
+![Logo JavaScript](/PersonalBlog/img/javascript-logo.png "JavaScript - Ngôn ngữ của Web")
+
 **JavaScript** (viết tắt là JS) là ngôn ngữ lập trình được sử dụng chủ yếu để tạo ra các trang web tương tác. Ban đầu JavaScript chỉ chạy trên trình duyệt web, nhưng hiện nay nó có thể chạy ở nhiều môi trường khác nhau.
 
 ### Tại sao nên học JavaScript?

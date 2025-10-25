@@ -13,6 +13,8 @@ bigimg:
 
 **Cấu trúc điều khiển** cho phép chương trình đưa ra quyết định và thực hiện các hành động khác nhau dựa trên điều kiện. Giống như trong cuộc sống, chúng ta thường phải đưa ra quyết định: "Nếu trời mưa thì mang ô, nếu không thì không cần".
 
+![Sơ đồ luồng của câu lệnh if-else](/PersonalBlog/img/java-control-flow-if-else.png "Luồng thực thi của chương trình với if-else")
+
 ## 1. Câu lệnh If
 
 ### Cú pháp cơ bản:

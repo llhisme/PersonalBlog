@@ -13,6 +13,8 @@ bigimg:
 
 **DOM** (Document Object Model) là một giao diện lập trình cho các tài liệu HTML và XML. Nó biểu diễn cấu trúc của tài liệu dưới dạng một cây các đối tượng, cho phép JavaScript truy cập và thay đổi nội dung, cấu trúc và kiểu dáng của trang web.
 
+![Cây DOM](/PersonalBlog/img/js-dom-tree.png "Cấu trúc cây của Document Object Model")
+
 ## Truy cập các phần tử DOM
 
 - `getElementById()`: Lấy một phần tử theo ID.
