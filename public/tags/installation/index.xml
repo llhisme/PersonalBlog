@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Installation on LLHISME&#39;S Blog</title>
+    <link>http://localhost:1313/PersonalBlog/tags/installation/</link>
+    <description>Recent content in Installation on LLHISME&#39;S Blog</description>
+    <generator>Hugo</generator>
+    <language>vi</language>
+    <managingEditor>lamlyhao453@gmail.com (Lâm Lý Hào)</managingEditor>
+    <webMaster>lamlyhao453@gmail.com (Lâm Lý Hào)</webMaster>
+    <lastBuildDate>Tue, 28 Oct 2025 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/PersonalBlog/tags/installation/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Hướng dẫn cài đặt Java trên Windows</title>
+      <link>http://localhost:1313/PersonalBlog/post/java/huong-dan-cai-dat-java/</link>
+      <pubDate>Tue, 28 Oct 2025 00:00:00 +0000</pubDate><author>lamlyhao453@gmail.com (Lâm Lý Hào)</author>
+      <guid>http://localhost:1313/PersonalBlog/post/java/huong-dan-cai-dat-java/</guid>
+      <description>&lt;h1 id=&#34;hướng-dẫn-cài-đặt-java-trên-windows&#34;&gt;Hướng dẫn cài đặt Java trên Windows&lt;/h1&gt;&#xA;&lt;p&gt;Trong bài viết này, tôi sẽ hướng dẫn các bạn cách cài đặt Java trên hệ điều hành Windows.&lt;/p&gt;&#xA;&lt;h2 id=&#34;các-bước-cài-đặt&#34;&gt;Các bước cài đặt&lt;/h2&gt;&#xA;&lt;h3 id=&#34;1-chạy-file-cài-đặt&#34;&gt;1. Chạy file cài đặt&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Double-click vào file &lt;code&gt;.exe&lt;/code&gt; đã tải về (thường có tên dạng &lt;code&gt;jdk-[version]_windows-x64_bin.exe&lt;/code&gt;)&lt;/li&gt;&#xA;&lt;li&gt;Nếu có thông báo bảo mật từ Windows, click &amp;ldquo;Yes&amp;rdquo; để cho phép chương trình chạy&lt;/li&gt;&#xA;&lt;li&gt;Click &amp;ldquo;Next&amp;rdquo; để bắt đầu quá trình cài đặt&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h3 id=&#34;2-chọn-thư-mục-cài-đặt&#34;&gt;2. Chọn thư mục cài đặt&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Mặc định, Java sẽ được cài đặt vào thư mục &lt;code&gt;C:\Program Files\Java\jdk-[version]&lt;/code&gt;&lt;/li&gt;&#xA;&lt;li&gt;Bạn có thể thay đổi đường dẫn nếu muốn, nhưng khuyến nghị giữ nguyên đường dẫn mặc định&lt;/li&gt;&#xA;&lt;li&gt;Click &amp;ldquo;Next&amp;rdquo; để tiếp tục&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h3 id=&#34;3-chờ-quá-trình-cài-đặt-hoàn-tất&#34;&gt;3. Chờ quá trình cài đặt hoàn tất&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Quá trình này sẽ mất vài phút&lt;/li&gt;&#xA;&lt;li&gt;Đợi cho đến khi thấy thông báo &amp;ldquo;Setup Completed&amp;rdquo;&lt;/li&gt;&#xA;&lt;li&gt;Click &amp;ldquo;Close&amp;rdquo; để kết thúc&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h3 id=&#34;4-thiết-lập-biến-môi-trường&#34;&gt;4. Thiết lập biến môi trường&lt;/h3&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;&lt;strong&gt;Thiết lập JAVA_HOME&lt;/strong&gt;&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

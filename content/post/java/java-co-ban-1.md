@@ -12,6 +12,7 @@ bigimg:
 ## Java là gì?
 
 Java là một ngôn ngữ lập trình hướng đối tượng được phát triển bởi Sun Microsystems (hiện thuộc Oracle) vào năm 1995. Java nổi tiếng với slogan **"Write Once, Run Anywhere"** (Viết một lần, chạy mọi nơi).
+![Java](/PersonalBlog/img/java.jpg "Java")
 
 ### Tại sao nên học Java?
 
@@ -29,7 +30,7 @@ Java là một ngôn ngữ lập trình hướng đối tượng được phát 
 1. Truy cập trang web chính thức của Oracle: https://www.oracle.com/java/technologies/downloads/
 2. Chọn phiên bản JDK mới nhất (khuyến nghị JDK 17 hoặc 21)
 3. Tải file cài đặt phù hợp với hệ điều hành của bạn
-4. Chạy file cài đặt và làm theo hướng dẫn
+4. Chạy file cài đặt và làm theo hướng dẫn ([tại đây](/PersonalBlog/post/java/huong-dan-cai-dat-java))
 
 ### Bước 2: Kiểm tra cài đặt
 

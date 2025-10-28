@@ -3,10 +3,31 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>http://localhost:1313/PersonalBlog/</loc>
-    <lastmod>2024-02-05T00:00:00+00:00</lastmod>
+    <lastmod>2025-10-28T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/PersonalBlog/categories/</loc>
-    <lastmod>2024-02-05T00:00:00+00:00</lastmod>
+    <lastmod>2025-10-28T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/PersonalBlog/post/java/huong-dan-cai-dat-java/</loc>
+    <lastmod>2025-10-28T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/PersonalBlog/tags/installation/</loc>
+    <lastmod>2025-10-28T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/PersonalBlog/categories/java/</loc>
+    <lastmod>2025-10-28T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/PersonalBlog/tags/java/</loc>
+    <lastmod>2025-10-28T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/PersonalBlog/post/</loc>
+    <lastmod>2025-10-28T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/PersonalBlog/tags/</loc>
+    <lastmod>2025-10-28T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/PersonalBlog/tags/tutorial/</loc>
+    <lastmod>2025-10-28T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/PersonalBlog/tags/c%C6%A1-b%E1%BA%A3n/</loc>
     <lastmod>2024-02-05T00:00:00+00:00</lastmod>
@@ -27,12 +48,6 @@
     <lastmod>2024-02-05T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/PersonalBlog/post/javascript/javascript-co-ban-4/</loc>
-    <lastmod>2024-02-05T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/PersonalBlog/post/</loc>
-    <lastmod>2024-02-05T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/PersonalBlog/tags/</loc>
     <lastmod>2024-02-05T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/PersonalBlog/tags/function/</loc>
@@ -72,12 +87,6 @@
     <lastmod>2024-01-28T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/PersonalBlog/tags/for/</loc>
-    <lastmod>2024-01-28T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/PersonalBlog/categories/java/</loc>
-    <lastmod>2024-01-28T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/PersonalBlog/tags/java/</loc>
     <lastmod>2024-01-28T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/PersonalBlog/tags/java-c%C6%A1-b%E1%BA%A3n/</loc>

@@ -8,8 +8,29 @@
     <language>vi</language>
     <managingEditor>lamlyhao453@gmail.com (Lâm Lý Hào)</managingEditor>
     <webMaster>lamlyhao453@gmail.com (Lâm Lý Hào)</webMaster>
-    <lastBuildDate>Mon, 05 Feb 2024 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 28 Oct 2025 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/PersonalBlog/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Installation</title>
+      <link>http://localhost:1313/PersonalBlog/tags/installation/</link>
+      <pubDate>Tue, 28 Oct 2025 00:00:00 +0000</pubDate><author>lamlyhao453@gmail.com (Lâm Lý Hào)</author>
+      <guid>http://localhost:1313/PersonalBlog/tags/installation/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Java</title>
+      <link>http://localhost:1313/PersonalBlog/tags/java/</link>
+      <pubDate>Tue, 28 Oct 2025 00:00:00 +0000</pubDate><author>lamlyhao453@gmail.com (Lâm Lý Hào)</author>
+      <guid>http://localhost:1313/PersonalBlog/tags/java/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Tutorial</title>
+      <link>http://localhost:1313/PersonalBlog/tags/tutorial/</link>
+      <pubDate>Tue, 28 Oct 2025 00:00:00 +0000</pubDate><author>lamlyhao453@gmail.com (Lâm Lý Hào)</author>
+      <guid>http://localhost:1313/PersonalBlog/tags/tutorial/</guid>
+      <description></description>
+    </item>
     <item>
       <title>Cơ Bản</title>
       <link>http://localhost:1313/PersonalBlog/tags/c%C6%A1-b%E1%BA%A3n/</link>
@@ -113,13 +134,6 @@
       <link>http://localhost:1313/PersonalBlog/tags/for/</link>
       <pubDate>Sun, 28 Jan 2024 00:00:00 +0000</pubDate><author>lamlyhao453@gmail.com (Lâm Lý Hào)</author>
       <guid>http://localhost:1313/PersonalBlog/tags/for/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Java</title>
-      <link>http://localhost:1313/PersonalBlog/tags/java/</link>
-      <pubDate>Sun, 28 Jan 2024 00:00:00 +0000</pubDate><author>lamlyhao453@gmail.com (Lâm Lý Hào)</author>
-      <guid>http://localhost:1313/PersonalBlog/tags/java/</guid>
       <description></description>
     </item>
     <item>

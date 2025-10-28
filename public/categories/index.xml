@@ -8,20 +8,20 @@
     <language>vi</language>
     <managingEditor>lamlyhao453@gmail.com (Lâm Lý Hào)</managingEditor>
     <webMaster>lamlyhao453@gmail.com (Lâm Lý Hào)</webMaster>
-    <lastBuildDate>Mon, 05 Feb 2024 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 28 Oct 2025 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/PersonalBlog/categories/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Java</title>
+      <link>http://localhost:1313/PersonalBlog/categories/java/</link>
+      <pubDate>Tue, 28 Oct 2025 00:00:00 +0000</pubDate><author>lamlyhao453@gmail.com (Lâm Lý Hào)</author>
+      <guid>http://localhost:1313/PersonalBlog/categories/java/</guid>
+      <description></description>
+    </item>
     <item>
       <title>JavaScript</title>
       <link>http://localhost:1313/PersonalBlog/categories/javascript/</link>
       <pubDate>Mon, 05 Feb 2024 00:00:00 +0000</pubDate><author>lamlyhao453@gmail.com (Lâm Lý Hào)</author>
       <guid>http://localhost:1313/PersonalBlog/categories/javascript/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Java</title>
-      <link>http://localhost:1313/PersonalBlog/categories/java/</link>
-      <pubDate>Sun, 28 Jan 2024 00:00:00 +0000</pubDate><author>lamlyhao453@gmail.com (Lâm Lý Hào)</author>
-      <guid>http://localhost:1313/PersonalBlog/categories/java/</guid>
       <description></description>
     </item>
   </channel>
