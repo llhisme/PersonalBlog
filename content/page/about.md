@@ -1,6 +1,6 @@
 ---
 title: Giới thiệu về tôi
-subtitle: Tác giả blog, Lập trình viên Java & JavaScript
+subtitle: Luôn tò mò, luôn học hỏi, luôn kiến tạo
 comments: false
 ---
 
