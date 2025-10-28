@@ -66,35 +66,50 @@ Tôi tin rằng một lập trình viên giỏi không chỉ là người viết
 * **Thời gian:** 2022 - 2026 (dự kiến tốt nghiệp)
 
 ---
-
-
-
 <style>
-.certificates-container {
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
-    gap: 20px;
-    margin: 20px 0;
+/* ======== Chứng nhận - Căn chỉnh hình ảnh ======== */
+.certifications {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 1.5rem;
+  margin-top: 1rem;
+  margin-bottom: 1.5rem;
 }
-.certificate-item {
-    flex: 1;
-    min-width: 300px;
-    max-width: 400px;
+
+.certifications figure {
+  width: 140px !important; /* kích thước đồng nhất */
+  text-align: center;
+  margin: 0 !important;
 }
-.certificate-item img {
-    width: 100%;
-    height: auto;
-    border-radius: 8px;
-    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
-    transition: transform 0.3s ease;
+
+.certifications figure img {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.15);
+  transition: transform 0.2s ease;
 }
-.certificate-item img:hover {
-    transform: scale(1.05);
+
+.certifications figure img:hover {
+  transform: scale(1.05);
+}
+
+.certifications figcaption {
+  font-size: 0.85rem;
+  color: var(--color-text);
+  margin-top: 0.4rem;
 }
 </style>
 
+## Chứng nhận
 
+<div class="certifications">
+  {{< figure src="/PersonalBlog/img/JS-Essentials1.png" alt="JavaScript Essentials 1" caption="JavaScript Essentials 1" >}}
+  {{< figure src="/PersonalBlog/img/JS-Essentials2.png" alt="JavaScript Essentials 2" caption="JavaScript Essentials 2" >}}
+  {{< figure src="/PersonalBlog/img/Networking-basics.png" alt="Networking Basics" caption="Networking Basics" >}}
+</div>
 
 ## Không chỉ là Code...
 
