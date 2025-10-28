@@ -14,6 +14,12 @@ Tôi tạo ra blog này để chia sẻ hành trình học hỏi, những kiến
 
 Mục tiêu của tôi là cung cấp các bài viết kỹ thuật chuyên sâu, các hướng dẫn từ cơ bản đến nâng cao và các dự án thực tế để giúp đỡ cộng đồng lập trình viên, đặc biệt là những người mới bắt đầu.
 
+<div style="text-align: center; margin: 30px 0;">
+    <a href="https://www.canva.com/design/DAG3DuY5DB4/HP_YXx62MZtWiU0f_QlU_w/view?utm_content=DAG3DuY5DB4&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=h3fa7b26383" target="_blank" style="display: inline-block; padding: 12px 24px; background-color: #007bff; color: white; text-decoration: none; border-radius: 5px; font-weight: bold; transition: background-color 0.3s ease;">
+        📄 Xem CV của tôi
+    </a>
+</div>
+
 ---
 
 ## Triết lý của tôi
@@ -60,6 +66,35 @@ Tôi tin rằng một lập trình viên giỏi không chỉ là người viết
 * **Thời gian:** 2022 - 2026 (dự kiến tốt nghiệp)
 
 ---
+
+
+
+<style>
+.certificates-container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 20px;
+    margin: 20px 0;
+}
+.certificate-item {
+    flex: 1;
+    min-width: 300px;
+    max-width: 400px;
+}
+.certificate-item img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    transition: transform 0.3s ease;
+}
+.certificate-item img:hover {
+    transform: scale(1.05);
+}
+</style>
+
+
 
 ## Không chỉ là Code...
 
